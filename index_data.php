@@ -112,8 +112,15 @@
                                                           
    		  </dd>
     	</dl>
+		<?php
+
+			 $result = mysql_query("SELECT * FROM  `t_posts` where post_type='post' and post_status='publish' LIMIT 0 , 30");
+
+			 while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
+					var_dump($row);
+			  }
+		?>
     	<ul id="hot">
-            
                 		<li  class="hot-list" >
                 <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.10" title="如何养精蓄锐再战双12">
                     <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1gCs9FgVaXXaCwpjX.png">
