@@ -139,7 +139,7 @@
 										    <div class="article">
 													<div class="substance">
 													   <div class="ke-post">
-                                                     <?php  echo $row['post_content'];  ?>
+                                                     <?php  echo wpautop($row['post_content']);  ?>
 													 </div>
 												</div>
 										    </div>
