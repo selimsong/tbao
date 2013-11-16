@@ -75,22 +75,22 @@
 		<div class="sub-nav-wrap">
     		<div class="sub-nav-box">
     			    			<ul class="J_IsSubnav" id="J_Sub_index">
-    				<li id="J_Subnav_zatan"><a href="http://bbs.taobao.com/catalog/424015.htm" target="_blank">淘宝杂谈</a></li>
-    				<li id="J_Subnav_lunjian" class="subnav-last"><a href="http://bbs.taobao.com/catalog/963001--1.htm" target="_blank">网商论剑</a></li>
+    				<li id="J_Subnav_zatan"><a href="#" target="_blank">淘宝杂谈</a></li>
+    				<li id="J_Subnav_lunjian" class="subnav-last"><a href="#" target="_blank">网商论剑</a></li>
     			</ul>
     			  <ul class="J_IsSubnav" id="J_Sub_zhengce">
-    				<li id="J_Subnav_jujiao" class="subnav-last"><a href="http://bbs.taobao.com/catalog/thread/16029511-259778216.htm" target="_blank">热点聚焦</a></li>
+    				<li id="J_Subnav_jujiao" class="subnav-last"><a href="#" target="_blank">热点聚焦</a></li>
     				
     			</ul>
     			
     			    			<ul class="J_IsSubnav" id="J_Sub_maijia">
-    				<li id="J_Subnav_jingyan"><a href="http://bbs.taobao.com/catalog/963001-1061105.htm#ThreadList" target="_blank">实战经验</a></li>
-    				<li id="J_Subnav_xiaoermei" class="subnav-last"><a href="http://bbs.taobao.com/catalog/12005010.htm#ThreadList" target="_blank">淘宝小而美</a></li>
+    				<li id="J_Subnav_jingyan"><a href="#" target="_blank">实战经验</a></li>
+    				<li id="J_Subnav_xiaoermei" class="subnav-last"><a href="#" target="_blank">淘宝小而美</a></li>
     			</ul>
     			
     			    			<ul class="J_IsSubnav" id="J_Sub_guanfang">
-    				<li id="J_Subnav_taobaogonggao"><a href="http://bbs.taobao.com/catalog/438501.htm" target="_blank">淘宝公告</a></li>
-    				<li class="subnav-last" id="J_Subnav_cuxiaohui"><a href="http://bbs.taobao.com/catalog/11298010.htm" target="_blank">值得买</a></li>
+    				<li id="J_Subnav_taobaogonggao"><a href="#" target="_blank">淘宝公告</a></li>
+    				<li class="subnav-last" id="J_Subnav_cuxiaohui"><a href="#" target="_blank">值得买</a></li>
 			</ul>
     		</div>
 		</div>
@@ -144,19 +144,19 @@
         
   <div class="col-sub">
     		<div class="hot-post focus">
-        <h4 class="post-title">热点议题：<a href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm?spm=1.358604.295672.1" target="_blank">1212要尽量避免的失误</a><s class="icon"></s></h4>
-        <div class="hot-img" href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm?spm=1.358604.295672.2">
-            <a href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm?spm=1.358604.295672.3" target="_blank" title="1212要尽量避免的失误">
+        <h4 class="post-title">热点议题：<a href="#" target="_blank">1212要尽量避免的失误</a><s class="icon"></s></h4>
+        <div class="hot-img" href="#">
+            <a href="#" target="_blank" title="1212要尽量避免的失误">
                 <img src="http://img03.taobaocdn.com/imgextra/i3/11130032222267719/T2j6N1XB4aXXXXXXXX_!!594721130-2-martrix_bbs.png">
             </a>
             <div class="hot-detail">
-                中小卖家如何避免双12可能存在的风险...<a href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm?spm=1.358604.295672.4">[详情]</a>
+                中小卖家如何避免双12可能存在的风险...<a href="#">[详情]</a>
             </div>
         </div>
         <div class="info">
             <div class="post-view-rely">
-                <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm?spm=1.358604.295672.5" target="_blank">0</a> 查看</span>
-                <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-264844309.htm" target="_blank">0</a> 回复</span>
+                <span class="post-view"><a class="J_View" href="#" target="_blank">0</a> 查看</span>
+                <span class="post-reply"><a class="J_Reply" href="#" target="_blank">0</a> 回复</span>
             </div>
             <dl class="reply-list">
                 <dt>卖家小静</dt>

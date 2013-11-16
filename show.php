@@ -98,7 +98,7 @@
 		<?php
 
 		 include_once 'config.php';
-		 $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts`     LIMIT 0 , 1"); 
+		 $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts` where ID='".addslashes($_GET['id'])."'    LIMIT 0 , 1"); 
 		 $row = mysql_fetch_array($result, MYSQL_ASSOC);
 		// var_dump($row);
 		?>
