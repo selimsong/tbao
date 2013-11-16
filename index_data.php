@@ -114,11 +114,12 @@
     	</dl>
 		<?php
 
-			 $result = mysql_query("SELECT * FROM  `t_posts` where post_type='post' and post_status='publish' LIMIT 0 , 30");
+			 $result = mysql_query("SELECT a.ID,a.post_title,b.guid as picture FROM  `t_posts` a left join `t_posts` ON b.post_parent = a.ID   where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' LIMIT 0 , 30");
 
 			 while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 					var_dump($row);
 			  }
+			  mysql_close($link);
 		?>
     	<ul id="hot">
                 		<li  class="hot-list" >
