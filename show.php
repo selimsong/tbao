@@ -138,7 +138,9 @@
     									  <div class="bd">
 										    <div class="article">
 													<div class="substance">
+													   <div class="ke-post">
                                                      <?php  echo $row['post_content'];  ?>
+													 </div>
 												</div>
 										    </div>
    										  </div>
