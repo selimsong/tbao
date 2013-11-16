@@ -114,10 +114,7 @@
     	</dl>
 		<?php
              include_once 'config.php';
-			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc'  LIMIT 0 , 7");
-
-			
-			  
+			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc'  LIMIT 0 , 7"); 
 			 
 		?>
     	<ul id="hot">
@@ -125,18 +122,16 @@
 		       while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 
 		   ?>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.10" title="如何养精蓄锐再战双12">
-                    <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1gCs9FgVaXXaCwpjX.png">
+           <li  class="hot-list" >
+                <a class="hot-img" target="_blank" href="#" title="如何养精蓄锐再战双12">
+                    <img class="image" src="<?php echo $row['picture']; ?>">
                 </a>
                 <div class="hot-info">
                     <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.11" title="如何养精蓄锐再战双12"><?php echo $row['']; ?></a></h3>
-                        
-              
+                        <h3><a href="#" title="如何养精蓄锐再战双12"><?php echo $row['post_title']; ?></a></h3>
                     </div>
-                    <p class="detail">双11过后，中小卖家要如何养精蓄锐再战双12，创下新绩。</p>
-                    <p class="time">发表于 2013-11-15 10:31</p>
+                    <p class="detail"><?php echo $row['description']; ?></p>
+                    <p class="time">发表于 <?php echo $row['post_data']; ?></p>
                 </div>
             </li>
 			<?php   
