@@ -114,7 +114,7 @@
     	</dl>
 		<?php
 
-			 $result = mysql_query("SELECT a.ID,a.post_title,b.guid as picture FROM  `t_posts` a left join `t_posts` ON b.post_parent = a.ID   where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' LIMIT 0 , 30");
+			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc'  LIMIT 0 , 7");
 
 			 while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
 					var_dump($row);
