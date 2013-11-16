@@ -116,19 +116,22 @@
              include_once 'config.php';
 			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc'  LIMIT 0 , 7");
 
-			 while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
-					var_dump($row);
-			  }
-			  mysql_close($link);
+			
+			  
+			 
 		?>
     	<ul id="hot">
+		   <?php 
+		       while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+
+		   ?>
                 		<li  class="hot-list" >
                 <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.10" title="如何养精蓄锐再战双12">
                     <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1gCs9FgVaXXaCwpjX.png">
                 </a>
                 <div class="hot-info">
                     <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.11" title="如何养精蓄锐再战双12">如何养精蓄锐再战双12</a></h3>
+                        <h3><a href="http://bbs.taobao.com/catalog/thread/154517-264924154.htm?spm=1.356795.294482.11" title="如何养精蓄锐再战双12"><?php echo $row['']; ?></a></h3>
                         
               
                     </div>
@@ -136,6 +139,10 @@
                     <p class="time">发表于 2013-11-15 10:31</p>
                 </div>
             </li>
+			<?php   
+			 }
+			 mysql_close($link);
+			?>
                 		<li  class="hot-list" >
                 <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/1338197-264925096.htm?spm=1.356795.294482.14" title="鬼脚七解读1212策略">
                     <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1Nv31FkpdXXb1upjX.jpg">
