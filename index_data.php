@@ -131,7 +131,7 @@
                         <h3><a href="#" title="如何养精蓄锐再战双12"><?php echo $row['post_title']; ?></a></h3>
                     </div>
                     <p class="detail"><?php echo $row['description']; ?></p>
-                    <p class="time">发表于 <?php echo $row['post_data']; ?></p>
+                    <p class="time">发表于 <?php echo $row['post_date']; ?></p>
                 </div>
             </li>
 			<?php   
