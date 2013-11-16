@@ -98,9 +98,9 @@
 		<?php
 
 		 include_once 'config.php';
-		 $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts`    LIMIT 0 , 1"); 
+		 $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts`     LIMIT 0 , 1"); 
 		 $row = mysql_fetch_array($result, MYSQL_ASSOC);
-		 var_dump($row);
+		// var_dump($row);
 		?>
 
 		<div id="content">
@@ -112,7 +112,7 @@
         </a>
 	<span>&gt;</span>
 <a id="J_articleTitle" href="http://bbs.taobao.com/catalog/thread/508895-264880733.htm">
-	快递员开保时捷送货惊呆路人
+	 <?php  echo $row['post_title'];  ?>
 </a>
 
 		</div>
@@ -121,7 +121,7 @@
 				        	<h4>
             							<img src="http://a.tbcdn.cn/apps/bbs/img/icon/post_hot.png?t=20100125.png" title="热门帖">
 	
-            					            					快递员开保时捷送货惊呆路人
+            					            					<?php  echo $row['post_title'];  ?>
             					            
             					            					            					                			</h4>
 							<div class="visitor">
@@ -138,7 +138,7 @@
     									  <div class="bd">
 										    <div class="article">
 													<div class="substance">
-
+                                                     <?php  echo $row['post_content'];  ?>
 												</div>
 										    </div>
    										  </div>
