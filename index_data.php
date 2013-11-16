@@ -123,7 +123,7 @@
 
 		   ?>
            <li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="#" title="如何养精蓄锐再战双12">
+                <a class="hot-img" target="_blank" href="show.php?id=<?php echo $row['ID'];  ?>" title="如何养精蓄锐再战双12">
                     <img class="image" src="<?php echo $row['picture']; ?>">
                 </a>
                 <div class="hot-info">
@@ -138,110 +138,6 @@
 			 }
 			 mysql_close($link);
 			?>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/1338197-264925096.htm?spm=1.356795.294482.14" title="鬼脚七解读1212策略">
-                    <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1Nv31FkpdXXb1upjX.jpg">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/1338197-264925096.htm?spm=1.356795.294482.15" title="鬼脚七解读1212策略">鬼脚七解读1212策略</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/1338197-264925096.htm?spm=1.356795.294482.16" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/1338197-264925096.htm?spm=1.356795.294482.17" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">淘宝一直在强调生态，为了长远的发展，必须让更多的卖家能得到成长，今年的1212，口号是“万能的淘宝”，出发点是希望让更多的中小卖家玩起来，最终有尽可能多的卖家有成交...</p>
-                    <p class="time">发表于 2013-11-15 12:31</p>
-                </div>
-            </li>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154517-264943134.htm?spm=1.356795.294482.18" title="报名双12要避免踩地雷">
-                    <img class="image" src="http://img01.taobaocdn.com/imgextra/i1/11130030826495397/T2C8KbXA0aXXXXXXXX_!!594721130-0-martrix_bbs.jpg">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154517-264943134.htm?spm=1.356795.294482.19" title="报名双12要避免踩地雷">报名双12要避免踩地雷</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/154517-264943134.htm?spm=1.356795.294482.20" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/154517-264943134.htm?spm=1.356795.294482.21" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">双12报名时间是11月15日12点12分，截止时间为12月10日18点整，双12有很多要注意的细节和误区，中小卖家报名时要避免踏入误区，踩到地雷。</p>
-                    <p class="time">发表于 2013-11-15 15:31</p>
-                </div>
-            </li>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154517-264820847.htm?spm=1.356795.294482.22" title="淘宝来往杂堆如何玩">
-                    <img class="image" src="http://img02.taobaocdn.com/imgextra/i2/11130032452703914/T2uSOAXyJaXXXXXXXX_!!594721130-2-martrix_bbs.png">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154517-264820847.htm?spm=1.356795.294482.23" title="淘宝来往杂堆如何玩">淘宝来往杂堆如何玩</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/154517-264820847.htm?spm=1.356795.294482.24" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/154517-264820847.htm?spm=1.356795.294482.25" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">手机的普及，淘宝来往的推出，紧密的联系着买家和卖家，那么我们要如何来往这个平台推动起来呢？关于淘宝来往扎堆要如何玩呢？</p>
-                    <p class="time">发表于 2013-11-09 16:16</p>
-                </div>
-            </li>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154503-264417060.htm?spm=1.356795.294482.26" title="告别背黑锅时代不是梦">
-                    <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1vIQ6FXXcXXb1upjX.jpg">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154503-264417060.htm?spm=1.356795.294482.27" title="告别背黑锅时代不是梦">告别背黑锅时代不是梦</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/154503-264417060.htm?spm=1.356795.294482.28" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/154503-264417060.htm?spm=1.356795.294482.29" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">随着网购的兴起，淘宝掌柜这样的群体与日俱增，让很多人加入了这个行列，也给消费者提供了……</p>
-                    <p class="time">发表于 2013-10-09 00:03</p>
-                </div>
-            </li>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154503-264405002.htm?spm=1.356795.294482.30" title="新偶像的小而美之约！">
-                    <img class="image" src="http://gtms01.alicdn.com/tps/i1/T1uvdbFsXXXXaCwpjX.png">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154503-264405002.htm?spm=1.356795.294482.31" title="新偶像的小而美之约！">新偶像的小而美之约！</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/154503-264405002.htm?spm=1.356795.294482.32" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/154503-264405002.htm?spm=1.356795.294482.33" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">2013年对于我来说是个很不平常的一年，远离了学校，开了淘宝店。18岁的年龄说大是一定不大的……</p>
-                    <p class="time">发表于 2013-10-08 19:42</p>
-                </div>
-            </li>
-                		<li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="http://bbs.taobao.com/catalog/thread/154503-264420087.htm?spm=1.356795.294482.34" title="超值优惠，反被骗子敲诈投诉！">
-                    <img class="image" src="http://img03.taobaocdn.com/sns_album/i3/T1e9YUXnJlXXaH.X6X.JPEG">
-                </a>
-                <div class="hot-info">
-                    <div class="title">
-                        <h3><a href="http://bbs.taobao.com/catalog/thread/154503-264420087.htm?spm=1.356795.294482.35" title="超值优惠，反被骗子敲诈投诉！">超值优惠，反被骗子敲诈投诉！</a></h3>
-                        
-                        <div class="view-reply">
-                            <span class="post-view"><a class="J_View" href="http://bbs.taobao.com/catalog/thread/154503-264420087.htm?spm=1.356795.294482.36" target="_blank">0</a> 查看</span>
-                            <span class="post-reply"><a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/154503-264420087.htm?spm=1.356795.294482.37" target="_blank">0</a> 回复</span>
-                        </div>
-                    </div>
-                    <p class="detail">身在广州的女装卖家二嫂，在经历了一个月的时间，终于将店铺做到了一个钻，亮闪闪的蓝钻让她心里别样的滋味，酸甜苦辣，皆在心中。</p>
-                    <p class="time">发表于 2013-10-09 11:43</p>
-                </div>
-            </li>
-                        
-            
     	</ul>
     </div>
 </div>			
