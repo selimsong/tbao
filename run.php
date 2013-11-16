@@ -1,5 +1,5 @@
 <?php
-$content = file_get_content('http://mei94.com/index_data.php');
+$content = file_get_contents('http://mei94.com/index_data.php');
 
-file_put_contents(index.html);
+file_put_contents('index.html', $content);
 ?>
