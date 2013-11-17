@@ -395,44 +395,37 @@
         </div>
     </div>
 </div>
-		
-		        <div class="ss-box share">
-            <h2 class="icon-title"><a href="http://daohang.taobao.com/?spm=1.356808.294506.1" title="干货分享" target="_blank"></a></h2>
-  
 
+<?php	 
+	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_value as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='4' order by a.post_date desc LIMIT 0 , 7"); 
+	 $list_content = array();
+     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title'], 'description' => $row['description'] );
+	 }
+?>
+<div class="ss-box share">
+     <h2 class="icon-title"><a href="#" title="干货分享" target="_blank"></a></h2>
 <div class="news-img-info">
-    <a class="news-img" href="http://bbs.taobao.com/catalog/thread/510527-264003109.htm?spm=1.356808.294506.2" target="_blank" title="[火爆中]U站来招商了">                    
+    <a class="news-img" href="#" target="_blank" title="[火爆中]U站来招商了">                    
         <img src="http://img01.taobaocdn.com/imgextra/i1/732311414/T2B_7_Xd8XXXXXXXXX_!!732311414.jpg">                     
     </a>
     <div class="news-info">
-        <h4><a href="http://bbs.taobao.com/catalog/thread/510527-264003109.htm?spm=1.356808.294506.3">[火爆中]U站来招商了</a></h4>
+        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank"><?php  echo cutstr($list_content[0]['post_title'], 22);   ?></a></h4>
         <p>
-           论坛牵手百万卖家，一起玩营销，一起做活动，一起涨流量。…
-            <a href="http://bbs.taobao.com/catalog/thread/510527-264003109.htm?spm=1.356808.294506.4">[详细]</a>
+            <?php  echo $list_content[0]['description'];   ?>
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"  target="_blank">[详细]</a>
         </p>
     </div>
 </div>
 			<ul class="post-list">
+			<?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
 			<li>
             <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/510527-264942619.htm" title="【干货分享】论新店铺如何养成之男装篇">【干货分享】论新店铺如何养成...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/510527-264942619.htm">40回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/510527-264941116.htm" title="【干货分享】如何站在行业的高度看低谷">【干货分享】如何站在行业的高...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/510527-264941116.htm">30回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/510527-264942616.htm" title="【干货分享】小卖家如何玩转直通车，实现质的飞越">【干货分享】小卖家如何玩转直...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/510527-264942616.htm">32回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/510527-264514003.htm" title="最简单的淘宝赚钱机器《淘宝印钞术》（二）">最简单的淘宝赚钱机器《淘宝印...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/510527-264514003.htm">310回复</a>
-        </li>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		<?php }} ?>
 	</ul>
         </div>
 		
