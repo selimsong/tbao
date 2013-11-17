@@ -304,10 +304,10 @@
         <img src="http://img03.taobaocdn.com/tps/i3/T1i5pSFnJcXXbCFbsb-100-100.jpg">                     
     </a>
     <div class="news-info">
-        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo cutstr($list_content[0]['post_title'], 22);   ?></a></h4>
+        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank"><?php  echo cutstr($list_content[0]['post_title'], 22);   ?></a></h4>
         <p>
             <?php  echo $list_content[0]['description'];   ?>
-            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html">[详细]</a>
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"  target="_blank">[详细]</a>
         </p>
     </div>
 </div>
@@ -317,7 +317,7 @@
 			?>
 			<li>
             <s class="dot"></s>
-            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html" ><?php  echo $v['post_title'];   ?></a></p>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
           </li>
 		<?php }} ?>
 	 
@@ -440,39 +440,35 @@
             <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/424022.htm?spm=1.356803.294499.1" title="经验畅谈" target="_blank"></a></h2>
   
 
+<?php
+		 
+	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_value as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='5' order by a.post_date desc LIMIT 0 , 7"); 
+	 $list_content = array();
+     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title'], 'description' => $row['description'] );
+	 }
+?>
 <div class="news-img-info">
-    <a class="news-img" href="http://bbs.taobao.com/catalog/thread/154503-264248276.htm?spm=1.356803.294499.2" target="_blank" title="从文案提取元素做海报">                    
+    <a class="news-img" href="#" target="_blank" title="从文案提取元素做海报">                    
         <img src="http://img01.taobaocdn.com/imgextra/i1/732311414/T2B_7_Xd8XXXXXXXXX_!!732311414.jpg">                   
     </a>
     <div class="news-info">
-        <h4><a href="http://bbs.taobao.com/catalog/thread/154503-264248276.htm?spm=1.356803.294499.3">从文案提取元素做海报</a></h4>
+        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo cutstr($list_content[0]['post_title'], 22);   ?></a></h4>
         <p>
-           今天给大家做带来一个海报的制作过程，从文案出发，让大家学会怎么去构思一张海报，从哪里去………
-            <a href="http://bbs.taobao.com/catalog/thread/154503-264248276.htm?spm=1.356803.294499.4">[详细]</a>
+            <?php  echo $list_content[0]['description'];   ?>
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"  target="_blank">[详细]</a>
         </p>
     </div>
 </div>
 			<ul class="post-list">
+			<?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
 			<li>
             <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154503-264937877.htm" title="莫让二维码成支付宝被盗&quot;地雷&quot;！消费警示需牢记！">莫让二维码成支付宝被盗&quot;地雷...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154503-264937877.htm">67回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154503-264902369.htm" title="小编说事：我要上头条！双12谁能把我推到风口浪尖上？">小编说事：我要上头条！双12谁...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154503-264902369.htm">186回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154503-264902748.htm" title="小编说事：疯狂双十一！网银如何被代支付&ldquo;抢&rdquo;空空！">小编说事：疯狂双十一！网银如...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154503-264902748.htm">49回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154503-264908746.htm" title="【名人访谈】装修技巧360度 执着追求创造&ldquo;小而美&rdquo;">【名人访谈】装修技巧360度 执...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154503-264908746.htm">113回复</a>
-        </li>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		<?php }} ?>
 	</ul>
 		</div>
 		
