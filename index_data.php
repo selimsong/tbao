@@ -256,10 +256,7 @@
 	<?php
              
 	    $result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join  `t_postmeta` b  ON b.post_id = a.ID left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and b.meta_key='order' and c.term_taxonomy_id='2' order by b.meta_value  LIMIT 0 , 7"); 
-		 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
-             var_dump($row);
-		 }
-			 
+ 
 	?>
     <div class="layout layout-ss">
 				<div class="ss-box deep">
@@ -275,12 +272,19 @@
 </div>
 
 <ul class="post-list">
-  
+  <?php
+        while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+  ?>
         <li>
       <s class="dot"></s>
-      <p><a href="http://bbs.taobao.com/catalog/thread/14190010-260377107.htm?spm=1.356809.294507.4" title="[客服支招]超时退款规则">[客服支招]超时退款规则</a></p>
-      <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/14190010-260377107.htm?spm=1.356809.294507.5">0回复</a>
+      <p><a href="article-<?php echo alphaID($row['ID']);  ?>.html" title="<?php  echo $row['post_title'];  ?>">
+	  <?php  echo $row['post_title'];  ?>
+	  </a></p>
+       
     </li>
+   <?php
+         }
+    ?>
         <li>
       <s class="dot"></s>
       <p><a href="http://bbs.taobao.com/catalog/thread/14190010-260413185.htm?spm=1.356809.294507.6" title="[规则解读]母婴类目指导">[规则解读]母婴类目指导</a></p>
