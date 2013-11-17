@@ -296,7 +296,7 @@
 	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_value as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3' order by a.post_date desc LIMIT 0 , 7"); 
 	 $list_content = array();
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
-		 $list_content[] = array('ID'=>alphaID($row['ID']), 'post_title'=>$row['post_title'], 'description' => $row['description'] );
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title'], 'description' => $row['description'] );
 	 }
 ?>
 <div class="news-img-info">
