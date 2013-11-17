@@ -92,7 +92,7 @@
 .layout-ss{border-top:5px solid #f25b2b;padding-bottom:15px}
 .ss-box{float:left;border-right:1px dashed #e4e4e4;border-bottom:1px dashed #e4e4e4;width:300px;padding:0 15px;_display:inline;height:310px;overflow:hidden}
 .ss-box .icon-title,.ts-box .icon-title,.seller-tools .icon-title,.seller-nav .icon-title{height:20px;padding:15px 0 11px 0}
-.ss-box .icon-title strong,.ss-box .icon-title a,.layout-ts .icon-title strong,.layout-ts .icon-title a,.seller-tools .icon-title strong,.seller-nav .icon-title strong{height:20px;width:80px}
+.ss-box .icon-title strong,.ss-box .icon-title a,.layout-ts .icon-title strong,.layout-ts .icon-title a,.seller-tools .icon-title strong,.seller-nav .icon-title strong{height:20px;width:160px}
 .ss-box .post-list li p,.ts-box .post-list li p{height:30px;line-height:30px;width:216px}
 .ss-box .news-img-info{width:300px}
 .ss-box .news-info{width:188px}
