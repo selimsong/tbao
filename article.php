@@ -106,13 +106,13 @@
 
 		<div id="content">
 		<div id="crumb">
-			<a class="bbs-index" href="http://bbs.taobao.com/index.htm" target="_top">淘宝论坛</a>
+			<a class="bbs-index" href="#" target="_top">淘宝论坛</a>
 <span>&gt;</span>
-	        <a href="http://bbs.taobao.com/catalog/438501.htm">
+	        <a href="#">
         	淘宝公告栏
         </a>
 	<span>&gt;</span>
-<a id="J_articleTitle" href="http://bbs.taobao.com/catalog/thread/508895-264880733.htm">
+<a id="J_articleTitle" href="#">
 	 <?php  echo $row['post_title'];  ?>
 </a>
 
