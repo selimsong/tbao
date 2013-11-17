@@ -123,12 +123,12 @@
 
 		   ?>
            <li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="article-<?php echo alphaID($row['ID']);  ?>.html" title="如何养精蓄锐再战双12">
+                <a class="hot-img" target="_blank" href="article-<?php echo alphaID($row['ID']);  ?>.html" title="<?php echo $row['post_title']; ?>">
                     <img class="image" src="<?php echo $row['picture']; ?>">
                 </a>
                 <div class="hot-info">
                     <div class="title">
-                        <h3><a href="article-<?php echo alphaID($row['ID']);  ?>.html" title="如何养精蓄锐再战双12"><?php echo $row['post_title']; ?></a></h3>
+                        <h3><a href="article-<?php echo alphaID($row['ID']);  ?>.html" target="_blank"><?php echo $row['post_title']; ?></a></h3>
                     </div>
                     <p class="detail"><?php echo $row['description']; ?></p>
                     <p class="time">发表于 <?php echo $row['post_date']; ?></p>
