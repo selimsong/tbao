@@ -293,7 +293,7 @@
             <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/424023.htm?spm=1.356805.294503.1" title="诚信防骗" target="_blank"></a></h2>
 <?php
 		 
-	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_key as description  FROM  `t_posts` a left join  `t_postmeta` b  ON b.post_id = a.ID left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3'  LIMIT 0 , 7"); 
+	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_key as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3'  LIMIT 0 , 7"); 
 	 $list_content = array();
 	 
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
