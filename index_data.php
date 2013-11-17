@@ -93,7 +93,7 @@
     	</dl>
 		<?php
              include_once 'config.php';
-			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc' order by a.post_date desc LIMIT 0 , 7"); 
+			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc' and c.term_taxonomy_id='1' order by a.post_date desc LIMIT 0 , 7"); 
 			 
 		?>
     	<ul id="hot">
@@ -293,11 +293,11 @@
   
 
 <div class="news-img-info">
-    <a class="news-img" href="http://bbs.taobao.com/catalog/thread/154504-263272995.htm?spm=1.356805.294503.2" target="_blank" title="规范音像&书籍的公告">                    
+    <a class="news-img" href="" target="_blank" title="规范音像&书籍的公告">                    
         <img src="http://img03.taobaocdn.com/tps/i3/T1i5pSFnJcXXbCFbsb-100-100.jpg">                     
     </a>
     <div class="news-info">
-        <h4><a href="http://bbs.taobao.com/catalog/thread/154504-263272995.htm?spm=1.356805.294503.3">规范音像&书籍的公告</a></h4>
+        <h4><a href="">规范音像&书籍的公告</a></h4>
         <p>
            今年4月，阿里巴巴集团CEO马云宣布将与多部门联合打击淘宝网上的假冒伪劣和侵权盗版行为………
             <a href="http://bbs.taobao.com/catalog/thread/154504-263272995.htm?spm=1.356805.294503.4">[详细]</a>
@@ -545,7 +545,7 @@
         });
     </script>
 	
-			<a href="http://bbs.taobao.com/catalog/thread/1093005-259414414.htm" target="_blank" class="J_siteFeedback"><s></s>改进建议</a>
+			<a href="#" target="_blank" class="J_siteFeedback"><s></s>改进建议</a>
 
 		<!-- from vmcommon -->
 <div id="footer">
