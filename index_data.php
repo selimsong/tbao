@@ -128,7 +128,7 @@
                 </a>
                 <div class="hot-info">
                     <div class="title">
-                        <h3><a href="#" title="如何养精蓄锐再战双12"><?php echo $row['post_title']; ?></a></h3>
+                        <h3><a href="article-<?php echo alphaID($row['ID']);  ?>.html" title="如何养精蓄锐再战双12"><?php echo $row['post_title']; ?></a></h3>
                     </div>
                     <p class="detail"><?php echo $row['description']; ?></p>
                     <p class="time">发表于 <?php echo $row['post_date']; ?></p>
