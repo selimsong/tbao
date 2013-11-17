@@ -304,7 +304,7 @@
         <img src="http://img03.taobaocdn.com/tps/i3/T1i5pSFnJcXXbCFbsb-100-100.jpg">                     
     </a>
     <div class="news-info">
-        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo $list_content[0]['post_title'];   ?></a></h4>
+        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo msubstr($list_content[0]['post_title'], 0, 14);   ?></a></h4>
         <p>
             <?php  echo $list_content[0]['description'];   ?>
             <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html">[详细]</a>
