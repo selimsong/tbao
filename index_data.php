@@ -277,7 +277,7 @@
   ?>
         <li>
       <s class="dot"></s>
-      <p><a href="article-<?php echo alphaID($row['ID']);  ?>.html" title="<?php  echo $row['post_title'];  ?>">
+      <p><a href="article-<?php echo alphaID($row['ID']);  ?>.html" target="_blank"  title="<?php  echo $row['post_title'];  ?>">
 	  <?php  echo $row['post_title'];  ?>
 	  </a></p>
        
@@ -285,22 +285,6 @@
    <?php
          }
     ?>
-        <li>
-      <s class="dot"></s>
-      <p><a href="http://bbs.taobao.com/catalog/thread/14190010-260413185.htm?spm=1.356809.294507.6" title="[规则解读]母婴类目指导">[规则解读]母婴类目指导</a></p>
-      <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/14190010-260413185.htm?spm=1.356809.294507.7">0回复</a>
-    </li>
-        <li>
-      <s class="dot"></s>
-      <p><a href="http://bbs.taobao.com/catalog/thread/14190010-260333763.htm?spm=1.356809.294507.8" title="[规则解读]宝贝尺码问题">[规则解读]宝贝尺码问题</a></p>
-      <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/14190010-260333763.htm?spm=1.356809.294507.9">0回复</a>
-    </li>
-        <li>
-      <s class="dot"></s>
-      <p><a href="http://bbs.taobao.com/catalog/thread/14190010-260324433.htm?spm=1.356809.294507.10" title="[客服支招]如何避免诈骗">[客服支招]如何避免诈骗</a></p>
-      <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/14190010-260324433.htm?spm=1.356809.294507.11">0回复</a>
-    </li>
-      
 </ul>
         </div>
 		
