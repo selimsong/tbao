@@ -285,9 +285,9 @@
 			 <div class="news-img-info">      
         <img src="http://img02.taobaocdn.com/tps/i2/T1uqxMXwxbXXaCwpjX.png">                     
     <div class="news-info">
-        <h4>新人淘宝店，都需要准备那些工作</h4>
+        <h4><a href="#">新人淘宝店，都需要准备那些工作</a></h4>
         <p>
-            新人开淘宝店复杂吗？一点也不会，只要稍稍学习，大妈也可以在家开淘宝店哦！
+            <a href="#">新人开淘宝店复杂吗？一点也不会，只要稍稍学习，大妈也可以在家开淘宝店哦！</a>
         </p>
     </div>
 </div>
