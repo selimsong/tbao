@@ -293,47 +293,35 @@
             <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/424023.htm?spm=1.356805.294503.1" title="诚信防骗" target="_blank"></a></h2>
 <?php
 		 
-	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_key as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3'  LIMIT 0 , 7"); 
+	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_value as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3' order by a.post_date desc LIMIT 0 , 7"); 
 	 $list_content = array();
-	 
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 		 $list_content[] = array('ID'=>alphaID($row['ID']), 'post_title'=>$row['post_title'], 'description' => $row['description'] );
 	 }
-	 print_r($list_content);
 ?>
 <div class="news-img-info">
-    <a class="news-img" href="" target="_blank" title="规范音像&书籍的公告">                    
+    <a class="news-img" href="" target="_blank">                    
         <img src="http://img03.taobaocdn.com/tps/i3/T1i5pSFnJcXXbCFbsb-100-100.jpg">                     
     </a>
     <div class="news-info">
-        <h4><a href="">规范音像&书籍的公告</a></h4>
+        <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo $list_content[0]['post_title'];   ?></a></h4>
         <p>
-           今年4月，阿里巴巴集团CEO马云宣布将与多部门联合打击淘宝网上的假冒伪劣和侵权盗版行为………
-            <a href="http://bbs.taobao.com/catalog/thread/154504-263272995.htm?spm=1.356805.294503.4">[详细]</a>
+            <?php  echo $list_content[0]['description'];   ?>
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html">[详细]</a>
         </p>
     </div>
 </div>
 			<ul class="post-list">
+			<?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
 			<li>
             <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154504-264816261.htm" title="紧急！！使用搜狗浏览器的童鞋，请尽快修改相关账户密码~">紧急！！使用搜狗浏览器的童鞋...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154504-264816261.htm">178回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154504-264800723.htm" title="卖家警惕！子账号被盗导致买家的信息泄露！">卖家警惕！子账号被盗导致买家...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154504-264800723.htm">706回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154504-264742489.htm" title="瓶瓶罐罐无小事 化妆品需&ldquo;善待&rdquo;">瓶瓶罐罐无小事 化妆品需&ldquo;善待...</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154504-264742489.htm">120回复</a>
-        </li>
-			<li>
-            <s class="dot"></s>
-            <p><a href="http://bbs.taobao.com/catalog/thread/154504-264743896.htm" title="小心！电热水袋会爆炸">小心！电热水袋会爆炸</a></p>
-            <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/154504-264743896.htm">155回复</a>
-        </li>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html" ><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		<?php }} ?>
+	 
+		  
 	</ul>
         </div>
     
