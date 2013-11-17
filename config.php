@@ -77,3 +77,48 @@ function wpautop($pee, $br = true) {
 }
 
 
+function alphaID($in, $to_num = false, $pad_up = false)
+{
+  $index = "efghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcd";
+
+  $base  = strlen($index);
+
+  if ($to_num) {
+      // Digital number  <<--  alphabet letter code
+      $in  = strrev($in);
+      $out = 0;
+      $len = strlen($in) - 1;
+      for ($t = 0; $t <= $len; $t++) {
+          $bcpow = bcpow($base, $len - $t);
+          $out   = $out + strpos($index, substr($in, $t, 1)) * $bcpow;
+      }
+
+      if (is_numeric($pad_up)) {
+          $pad_up--;
+          if ($pad_up > 0) {
+              $out -= pow($base, $pad_up);
+          }
+      }
+      $out = sprintf('%F', $out);
+      $out = substr($out, 0, strpos($out, '.'));
+  } else {
+      // Digital number  -->>  alphabet letter code
+      if (is_numeric($pad_up)) {
+          $pad_up--;
+          if ($pad_up > 0) {
+              $in += pow($base, $pad_up);
+          }
+      }
+
+      $out = "";
+      for ($t = floor(log($in, $base)); $t >= 0; $t--) {
+          $bcp = bcpow($base, $t);
+          $a   = floor($in / $bcp) % $base;
+          $out = $out . substr($index, $a, 1);
+          $in  = $in - ($a * $bcp);
+      }
+      $out = strrev($out); // reverse
+  }
+
+  return $out;
+}
