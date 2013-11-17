@@ -123,7 +123,7 @@
 
 		   ?>
            <li  class="hot-list" >
-                <a class="hot-img" target="_blank" href="article-<?php echo $row['ID'];  ?>.html" title="如何养精蓄锐再战双12">
+                <a class="hot-img" target="_blank" href="article-<?php echo alphaID($row['ID']);  ?>.html" title="如何养精蓄锐再战双12">
                     <img class="image" src="<?php echo $row['picture']; ?>">
                 </a>
                 <div class="hot-info">
