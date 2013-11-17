@@ -274,19 +274,20 @@
   
 		</div>
     </div>
-	
+	<?php
+             
+	     $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc' order by a.post_date desc LIMIT 0 , 7"); 
+			 
+	?>
     <div class="layout layout-ss">
 				<div class="ss-box deep">
-            <h2 class="icon-title" title="深度解读"><strong></strong></h2>
-			 <div class="news-img-info">
-    <a class="news-img" href="http://bbs.taobao.com/catalog/thread/14190010-260735060.htm?spm=1.356809.294507.1" target="_blank" title="[规则解读]百货类目售后">                    
+            <h2 class="icon-title" title="新手淘宝开店"><strong></strong></h2>
+			 <div class="news-img-info">      
         <img src="http://img02.taobaocdn.com/tps/i2/T1uqxMXwxbXXaCwpjX.png">                     
-    </a>
     <div class="news-info">
-        <h4><a href="http://bbs.taobao.com/catalog/thread/14190010-260735060.htm?spm=1.356809.294507.2">[规则解读]百货类目售后</a></h4>
+        <h4>新人淘宝店，都需要准备那些工作</h4>
         <p>
-           百货类目商品居多，回顾过往，整理百货类目所有卖家以往所有引起售后投诉原因发现，以下几大原因引…
-            <a href="http://bbs.taobao.com/catalog/thread/14190010-260735060.htm?spm=1.356809.294507.3">[详细]</a>
+            新人开淘宝店复杂吗？一点也不会，只要稍稍学习，大妈也可以在家开淘宝店哦！
         </p>
     </div>
 </div>
