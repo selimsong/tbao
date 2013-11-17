@@ -4,26 +4,17 @@
 	<meta charset="utf-8">
 	<title>mei94 淘宝交流  淘宝网店装修   淘宝店铺装修免费模版</title>
 	<meta name="keywords" content="mei94,淘宝装修模板,淘宝模板,网店装修,淘宝店铺装修免费模板,淘宝店铺免费装修,淘宝装修免费模板,淘宝模板免费下载,淘宝免费模板,网店模板,淘宝店铺装修教程"/>
-<meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材"/>
-			
-		<link rel="stylesheet" href="./css/a.tbcdn.cn.css" /><!-- end vmc css 3.1-->
+<meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材"/>		
+	<link rel="stylesheet" href="./css/a.tbcdn.cn.css" /><!-- end vmc css 3.1-->
 	<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js,p/global/1.0/global-min.js?t=201211021123.js"></script>
-		<link rel="stylesheet" href="./css/nav.css" /><!-- end vmc css 3.1-->
+	<link rel="stylesheet" href="./css/nav.css" /><!-- end vmc css 3.1-->
 	<script src="http://a.tbcdn.cn/apps/bbs/pie/common/nav.js"></script>
-	
 	<link rel="stylesheet" href="./css/style-min.css" />
-	
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
 <body>
-	    <!-- start vmc 3.1 -->
-	    <!-- -->
-        <!-- 全网顶通 -->
-        <!-- end vmc 3.1 -->
 <script> 
       TB.Global.init({mc: -1}); 
-    </script>
-
+</script>
 </div>
 <div id="header">
 	<h1 id="logo">
@@ -31,7 +22,7 @@
 			<img width="140" height="43" src="./img/logo.png" alt="mei94">
 		</a>
 	</h1>
-		<script type="text/javascript">
+<script type="text/javascript">
     KISSY.ready(function(S) {
         var D = S.DOM,E = S.Event;
 
@@ -50,17 +41,10 @@
         })
     });
 </script>
-
-			
-			<div class="J_Type" id="J_Type">
-		
-			</div>
-	
-	
+<div class="J_Type" id="J_Type">
+</div>	
 </div>
-
-
-		<div id="main-nav">
+<div id="main-nav">
 	<div id="nav">
 		<div class="navigation">
 	  <div class="single-nav" id="single-nav">
@@ -70,8 +54,8 @@
 				<a href="#" id="J_Nav_guanfang" class="trigger-guanfang">官方专区</a>
 			</div>
 		</div>
-	</div>
-	<div id="sub-nav">
+</div>
+<div id="sub-nav">
 		<div class="sub-nav-wrap">
     		<div class="sub-nav-box">
     			    			<ul class="J_IsSubnav" id="J_Sub_index">
@@ -96,10 +80,7 @@
 		</div>
 	</div>
 </div>
-
-		<input type="hidden" value="J_Nav_index" id="J_NavLight">
-
-  
+<input type="hidden" value="J_Nav_index" id="J_NavLight">
 <div id="content">
 	<div class="layout layout-fs">
                 <div class="col-main">
@@ -107,9 +88,7 @@
 
     	<dl class="hots-title">
     		<dt class="word" title="热点关注"></dt>
-    		<dd>
-          
-                                                          
+    		<dd>                                            
    		  </dd>
     	</dl>
 		<?php
@@ -136,7 +115,7 @@
             </li>
 			<?php   
 			 }
-			 mysql_close($link);
+			 
 			?>
     	</ul>
     </div>
@@ -276,7 +255,10 @@
     </div>
 	<?php
              
-	     $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc' order by a.post_date desc LIMIT 0 , 7"); 
+	    $result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join  `t_postmeta` b  ON b.post_id = a.ID left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and b.meta_key='order' and c.term_taxonomy_id='2' order by b.meta_value  LIMIT 0 , 7"); 
+		 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+             var_dump($row);
+		 }
 			 
 	?>
     <div class="layout layout-ss">
@@ -751,4 +733,9 @@
 
 	
 </body>
+
+<?php 
+
+mysql_close($link);
+?>
 </html>
