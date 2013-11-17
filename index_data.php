@@ -154,7 +154,7 @@
           
         
         <div class="hot-news">
-            <a href="http://bbs.taobao.com/catalog/thread/16329010-264500109-1.htm?spm=1.358605.295673.2" target="_blank" title="【万圣节购物车狂欢】活动等你爆发">
+            <a href="#" target="_blank">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1tBElFbFXXXcWwx.o-290-140.jpg">
                 <span>【万圣节购物车狂欢】活动等你爆发</span>                
             </a>
