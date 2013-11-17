@@ -114,7 +114,7 @@
     	</dl>
 		<?php
              include_once 'config.php';
-			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc'  LIMIT 0 , 7"); 
+			 $result = mysql_query("SELECT a.ID,a.post_date,a.post_title,b.guid as picture, m.meta_value as description FROM  `t_posts` a left join `t_posts` b ON b.post_parent = a.ID  left join `t_postmeta` m ON m.post_id = a.ID  where a.post_type='post' and a.post_status='publish' and b.post_type='attachment' and meta_key='desc' order by a.post_date desc LIMIT 0 , 7"); 
 			 
 		?>
     	<ul id="hot">
