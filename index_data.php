@@ -122,37 +122,9 @@
 </div>			
         
   <div class="col-sub">
-    		<div class="hot-post focus">
-        <h4 class="post-title">热点议题：<a href="#" target="_blank">1212要尽量避免的失误</a><s class="icon"></s></h4>
-        <div class="hot-img" href="#">
-            <a href="#" target="_blank" title="1212要尽量避免的失误">
-                <img src="http://img03.taobaocdn.com/imgextra/i3/11130032222267719/T2j6N1XB4aXXXXXXXX_!!594721130-2-martrix_bbs.png">
-            </a>
-            <div class="hot-detail">
-                中小卖家如何避免双12可能存在的风险...<a href="#">[详情]</a>
-            </div>
-        </div>
-        <div class="info">
-            <div class="post-view-rely">
-                <span class="post-view"><a class="J_View" href="#" target="_blank">0</a> 查看</span>
-                <span class="post-reply"><a class="J_Reply" href="#" target="_blank">0</a> 回复</span>
-            </div>
-            <dl class="reply-list">
-                <dt>卖家小静</dt>
-                <dd>搞活动的同时，好好研究规则，注意别给自己上圈套</dd>
-                <dt>卖家小芬</dt>
-                <dd>其实对于每一个事物来说都会存在利弊两面，如何去扩展对于我们有利的地方</dd>
-                <dt>买家花儿</dt>
-                <dd>再者不要虚假促销，混水摸鱼，违者经举报淘宝一定要严格处理的。祝大家好运！</dd>
-            </dl>
-
-        </div>
-    </div>
     		<div class="right-box policy">
             
-        <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/963001-12933510.htm?spm=1.358605.295673.1" title="政策解读" target="_blank"></a></h2>
-          
-        
+        <h2 class="icon-title"><a href="#" title="政策解读" target="_blank"></a></h2>
         <div class="hot-news">
             <a href="#" target="_blank">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1tBElFbFXXXcWwx.o-290-140.jpg">
@@ -182,11 +154,11 @@
     </div>
     		<div class="right-box ju">
             
-        <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/11482010.htm?spm=1.358606.295674.1" title="聚划算专区" target="_blank"></a></h2>
+        <h2 class="icon-title"><a href="#" title="聚划算专区" target="_blank"></a></h2>
           
         
         <div class="hot-news">
-            <a href="http://bbs.taobao.com/catalog/thread/16329010-264635764.htm?spm=1.358606.295674.2" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
+            <a href="#" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1XzkfFipbXXcWwx.o-290-140.jpg">
                 <span>【1212预演】 2钻卖家的破万抱团营销</span>                
             </a>
@@ -327,8 +299,8 @@
     
                 <div class="ss-box line-active" id="J_Slide">
     <ul class="slide-nav">
-        <li class="ks-active">线上活动<s class="icon"></s></li>
-        <li>线下会议<s class="icon"></s></li>
+        <li class="ks-active">热门活动<s class="icon"></s></li>
+       
     </ul>
     <div class="slide-content">
 
@@ -505,21 +477,21 @@
     <ul class="seller-tools-list">
         
                 <li>
-            <a href="http://ju.taobao.com/tg/seller_home.htm?spm=1.356816.294513.1" class="juhuasuan" title="">
+            <a href="#" class="juhuasuan" title="">
                 <img src="http://img02.taobaocdn.com/tps/i2/T1c0jRXhNcXXartXjX.gif">            </a>        </li>
                 <li>
-            <a href="http://www.taobao.com/go/act/sale/snsmaijiatjb.php?spm=1.356816.294513.2" class="juhuasuan" title="">
+            <a href="#" class="juhuasuan" title="">
                 <img src="http://img02.taobaocdn.com/tps/i2/T1sr_MXaXrXXartXjX.gif">            </a>        </li>
                 <li>
-            <a href="http://tejia.taobao.com/rule/calendar.htm?spm=1.356816.294513.3" class="juhuasuan" title="">
+            <a href="#" class="juhuasuan" title="">
                 <img src="http://img04.taobaocdn.com/tps/i4/T1STTPXXRmXXartXjX.gif">            </a>        </li>
                 <li>
-            <a href="http://cu.taobao.com/manager/index.htm?spm=1.356816.294513.4" class="juhuasuan" title="">
+            <a href="#" class="juhuasuan" title="">
                 <img src="http://img03.taobaocdn.com/tps/i3/T1OHqFXq4fXXceGl2V-164-124.png">            </a>        </li>
                 <li>
-            <a href="http://try.taobao.com/shoper_index.htm?spm=1.356816.294513.5" class="juhuasuan" title="">
+            <a href="#" class="juhuasuan" title="">
                 <img src="http://img02.taobaocdn.com/tps/i2/T1VRYQXo0eXXartXjX.gif">            </a>        </li>
-                <li class="last" ><a href="http://www.tmall.com/go/chn/tmall/temai/join.php?spm=1.356816.294513.6" class="juhuasuan" title=""><a href="http://www.tmall.com/go/chn/tmall/temai/join.php?spm=1.356816.294513.6" class="juhuasuan" title=""><img src="http://img04.taobaocdn.com/tps/i4/T1yJLRXgXaXXartXjX.gif"></a></a></li>
+                <li class="last" ><a href="#" class="juhuasuan" title=""><img src="http://img04.taobaocdn.com/tps/i4/T1yJLRXgXaXXartXjX.gif"></a></a></li>
     </ul>
 </div>
 </div>
