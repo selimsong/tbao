@@ -424,8 +424,7 @@
 				<?php foreach($list_content as $k=>$v){  
 				 	
 				?>
-					<li>
-					<s class="dot"></s>
+				  <li>
 					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
 				  </li>
 			  <?php }  ?>   
