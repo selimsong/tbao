@@ -423,11 +423,11 @@
 			<ul class="rank-list">
 				<?php foreach($list_content as $k=>$v){  
 					$top = null;
-				 	if($k>=1){
+				 	if($k<2){
 					    $top="top";
 					 }
 				?>
-				  <li class="<?php echo $top  ?>">
+				  <li class="<?php echo $top;  ?>">
 					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
 				  </li>
 			  <?php }  ?>   
