@@ -424,13 +424,11 @@
 				<?php foreach($list_content as $k=>$v){  
 				 	
 				?>
-				  <li>
+				  <li class="<?php echo $k;  ?>">
 					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
 				  </li>
 			  <?php }  ?>   
-				<li class="top">
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264787763.htm" title="优选商品、加满橱窗，报名1212商品预备走">优选商品、加满橱窗，报...</a></p>
-				</li>
+			 
 				<li class="top">
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm" title="直击1212年终盛典 图解报名2步走起">直击1212年终盛典 图解报...</a></p>
                     <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm">1.3万回复</a>
