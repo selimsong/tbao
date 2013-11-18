@@ -431,21 +431,7 @@
 					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
 				  </li>
 			  <?php }  ?>   
-			 
-				 
-					  			                    <li>
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264872002.htm" title="1212报名规则全解读">1212报名规则全解读</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264872002.htm">1.1万回复</a>
-				</li>
-								    			                    <li>
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264891969.htm" title="马上开始报名1212商品啦 哪些商品不能报名1212？">马上开始报名1212商品啦...</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264891969.htm">1.1万回复</a>
-				</li>
-								    			                    <li>
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264879534.htm" title="【有问必答】1212橱窗推荐&amp;报名年终盛典FAQ（在线答疑）">【有问必答】1212橱窗推...</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264879534.htm">7845回复</a>
-				</li>
-				   </ul>
+			</ul>
         </div>
 	</div>
 	
