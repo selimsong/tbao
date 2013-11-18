@@ -409,20 +409,19 @@
           </li>
 		<?php }} ?>
 	</ul>
-		</div>
+	</div>
 		
-				 <div class="ss-box ranking-list">
-            <h2 class="icon-title"><strong title="一周热门回复排行"></strong></h2>
+		<div class="ss-box ranking-list">
+            <h2 class="icon-title"><strong title="一周热门排行"></strong></h2>
 			<ul class="rank-list">
-						    			                    <li class="top first">
+				<li class="top">
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264787763.htm" title="优选商品、加满橱窗，报名1212商品预备走">优选商品、加满橱窗，报...</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264787763.htm">2.1万回复</a>
 				</li>
-								    			                    <li class="top">
+				<li class="top">
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm" title="直击1212年终盛典 图解报名2步走起">直击1212年终盛典 图解报...</a></p>
                     <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm">1.3万回复</a>
 				</li>
-								    			                    <li class="top third">
+								    			                    <li class="top">
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264846863.htm" title="1212店铺红包总动员：5种面额，超过500就送橱窗奖励哦">1212店铺红包总动员：5种...</a></p>
                     <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264846863.htm">1.3万回复</a>
 				</li>
