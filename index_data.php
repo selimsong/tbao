@@ -410,10 +410,25 @@
 		<?php }} ?>
 	</ul>
 	</div>
-		
+		<?php
+		 
+			$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 7"); 
+			 $list_content = array();
+			 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+				 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
+			 }
+        ?>  
 		<div class="ss-box ranking-list">
             <h2 class="icon-title"><strong title="一周热门排行"></strong></h2>
 			<ul class="rank-list">
+				<?php foreach($list_content as $k=>$v){  
+				 	
+				?>
+					<li>
+					<s class="dot"></s>
+					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+				  </li>
+			  <?php }  ?>   
 				<li class="top">
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264787763.htm" title="优选商品、加满橱窗，报名1212商品预备走">优选商品、加满橱窗，报...</a></p>
 				</li>
