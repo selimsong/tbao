@@ -432,15 +432,8 @@
 				  </li>
 			  <?php }  ?>   
 			 
-				<li >
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm" title="直击1212年终盛典 图解报名2步走起">直击1212年终盛典 图解报...</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm">1.3万回复</a>
-				</li>
-								    			                    <li class="top">
-    			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264846863.htm" title="1212店铺红包总动员：5种面额，超过500就送橱窗奖励哦">1212店铺红包总动员：5种...</a></p>
-                    <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264846863.htm">1.3万回复</a>
-				</li>
-								    			                    <li>
+				 
+					  			                    <li>
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264872002.htm" title="1212报名规则全解读">1212报名规则全解读</a></p>
                     <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264872002.htm">1.1万回复</a>
 				</li>
