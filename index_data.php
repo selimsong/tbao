@@ -299,7 +299,7 @@
     <div class="slide-content">
 	<?php
 			 
-		$result = mysql_query("SELECT a.ID, a.post_title,a.post_date  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 7"); 
+		$result = mysql_query("SELECT a.ID, a.post_title,a.post_date  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='9' order by a.post_date desc LIMIT 0 , 7"); 
 		 $list_content = array();
 		 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 			 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title'], 'post_date' =>$row['post_date']);
