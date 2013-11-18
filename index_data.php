@@ -256,7 +256,7 @@
         </div>
 		
                 <div class="ss-box honest">
-            <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/424023.htm?spm=1.356805.294503.1" title="诚信防骗" target="_blank"></a></h2>
+            <h2 class="icon-title"><a href="#" title="诚信防骗" target="_blank"></a></h2>
 <?php
 		 
 	$result = mysql_query("SELECT a.ID, a.post_title, b.meta_value as description  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  left join  `t_postmeta` b  ON b.post_id = a.ID  where a.post_type='post' and b.meta_key='desc' and c.term_taxonomy_id='3' order by a.post_date desc LIMIT 0 , 7"); 
@@ -291,29 +291,15 @@
 	</ul>
         </div>
     
-                <div class="ss-box line-active" id="J_Slide">
+    <div class="ss-box line-active" id="J_Slide">
     <ul class="slide-nav">
-        <li class="ks-active">热门活动<s class="icon"></s></li>
+        <li class="ks-active">淘宝热门话题<s class="icon"></s></li>
        
     </ul>
     <div class="slide-content">
 
         <div class="online-active">
-            
-            <div class="news-img-info">
-                <a class="news-img" href="http://bbs.taobao.com/catalog/thread/16329010-264907148.htm?spm=1.356806.294505.1" target="_blank" title="1212报名啦！">                    
-                    <img src="http://gtms01.alicdn.com/tps/i1/T1_Xw8FlVbXXb1upjX.jpg">                     
-                </a>
-                <div class="news-info">
-                    <h4><a href="http://bbs.taobao.com/catalog/thread/16329010-264907148.htm?spm=1.356806.294505.2">11月15日</a></h4>
-                    <h4><a href="http://bbs.taobao.com/catalog/thread/16329010-264907148.htm?spm=1.356806.294505.3">1212报名啦！</a></h4>
-                    <p>
-                        12:12，报名正式开启！还等神马？火速杀来！…
-                        <a href="http://bbs.taobao.com/catalog/thread/16329010-264907148.htm?spm=1.356806.294505.4">[详细]</a>
-                    </p>
-                </div>
-            </div>
-            
+  
             <ul class="line-list">
                 
                                                    <li class="one">
