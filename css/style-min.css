@@ -131,7 +131,7 @@
 .line-list .line-title{width:175px;height:20px;overflow:hidden;display:block;float:left;font-size:14px}
 .line-list .line-subject:hover,.line-list .line-title:hover{color:#eb5500}
 .line-active,.ranking-list,.pathfinder{padding:0 14px;border-right:0}
-.rank-list{padding-left:46px;width:244px;background-position:0 -246px;height:230px}
+.rank-list{padding-left:6px;width:244px;height:230px}
 .rank-list li{height:30px;line-height:30px;width:244px;overflow:hidden}
 .rank-list li.top{height:46px;line-height:46px}
 .rank-list li.third{margin-bottom:5px;*margin-bottom:0;_margin-bottom:-3px}
