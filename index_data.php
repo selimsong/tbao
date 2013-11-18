@@ -389,7 +389,7 @@
 ?>
 <div class="news-img-info">
     <a class="news-img" href="#" target="_blank" title="从文案提取元素做海报">                    
-        <img src="http://img01.taobaocdn.com/imgextra/i1/732311414/T2B_7_Xd8XXXXXXXXX_!!732311414.jpg">                   
+        <img src="http://img03.taobaocdn.com/sns_album/i3/T1iYgvFhVXXXaH.X6X.JPEG">                   
     </a>
     <div class="news-info">
         <h4><a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html"><?php  echo cutstr($list_content[0]['post_title'], 22);   ?></a></h4>
