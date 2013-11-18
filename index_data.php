@@ -307,16 +307,15 @@
 		  
 	?>  
         <div class="online-active">
-  
-            <ul class="line-list">
+              <ul class="line-list">
               <?php foreach($list_content as $k=>$v){  
-			     if(0 != $k){	
+			    
 			   ?>
                <li class="one">      
                     <span class="line-date"><?php  echo $v['post_date'];   ?></span>
                     <a href="article-<?php echo alphaID($v['ID']);  ?>.html" target="_blank" class="line-title"><?php  echo $v['post_title'];   ?></a>
                 </li>
-              <?php }} ?>                     
+              <?php } ?>                     
             </ul>
         </div>
         <div class="belowline-active">
