@@ -199,7 +199,7 @@
         
         <div class="hot-news">
             <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
-                <img src="http://gtms01.alicdn.com/tps/i1/T1XzkfFipbXXcWwx.o-290-140.jpg">
+                <img src="http://img01.taobaocdn.com/imgextra/i1/19517032044987510/T29NaoXpJXXXXXXXXX_!!89517-0-martrix_bbs.jpg">
                 <span><?php  echo cutstr($list_content[0]['post_title'], 28);   ?></span>                
             </a>
         </div>
