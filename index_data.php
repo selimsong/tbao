@@ -205,23 +205,15 @@
         </div>
         
         <ul class="post-list">
-            
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/508895-264596629.htm?spm=1.358607.295675.4" title="十万淘女郎邀你一起入驻“来往”">十万淘女郎邀你一起入驻“来往”</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/508895-264596629.htm?spm=1.358607.295675.5">0回复</a>
-            </li>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/508895-264519349.htm?spm=1.358607.295675.6" title="“全家店取服务”教你一起如何玩转">“全家店取服务”教你一起如何玩转</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/508895-264519349.htm?spm=1.358607.295675.7">0回复</a>
-            </li>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16029511-264412064.htm?spm=1.358607.295675.8" title="个人网店开店仅需1-2天？！">个人网店开店仅需1-2天？！</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16029511-264412064.htm?spm=1.358607.295675.9">0回复</a>
-            </li>
-                        
+            <?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
+           	<li>
+            <s class="dot"></s>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		  <?php }} ?>   
+         
         </ul>
     </div>
   
