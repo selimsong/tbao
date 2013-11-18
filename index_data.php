@@ -297,18 +297,27 @@
        
     </ul>
     <div class="slide-content">
-
+	<?php
+			 
+		$result = mysql_query("SELECT a.ID, a.post_title,a.post_date  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 7"); 
+		 $list_content = array();
+		 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+			 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title'], 'post_date' =>$row['post_date']);
+		 }
+		  
+	?>  
         <div class="online-active">
   
             <ul class="line-list">
-                
-                                                   <li class="one">
-                                  
-                    <span class="line-date">11月15日</span>
-                    <a href="http://bbs.taobao.com/catalog/thread/244117-264898555.htm?spm=1.356806.294505.5" class="line-subject">阿里妈妈</a>
-                    <a href="http://bbs.taobao.com/catalog/thread/244117-264898555.htm?spm=1.356806.294505.6" class="line-title">超级赢家送红包</a>
+              <?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			   ?>
+               <li class="one">      
+                    <span class="line-date"><?php  echo $v['post_date'];   ?></span>
+                    <a href="article-<?php echo alphaID($v['ID']);  ?>.html" target="_blank" class="line-title"><?php  echo $v['post_title'];   ?></a>
                 </li>
-                                                  	<li class="two">
+              <?php }} ?>       
+						 <li class="two">
                                   
                     <span class="line-date">10月09日</span>
                     <a href="http://bbs.taobao.com/catalog/11298010.htm?spm=1.356806.294505.7" class="line-subject">值得买</a>
