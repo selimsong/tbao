@@ -350,7 +350,7 @@
 	 }
 ?>
 <div class="ss-box share">
-     <h2 class="icon-title"><a href="#" title="干货分享" target="_blank"></a></h2>
+     <h2 class="icon-title"><a href="#" title="淘宝卖家创业故事" target="_blank"></a></h2>
 <div class="news-img-info">
     <a class="news-img" href="#" target="_blank" title="[火爆中]U站来招商了">                    
         <img src="http://img01.taobaocdn.com/imgextra/i1/732311414/T2B_7_Xd8XXXXXXXXX_!!732311414.jpg">                     
@@ -376,7 +376,7 @@
         </div>
 		
 				<div class="ss-box experience">
-            <h2 class="icon-title"><a href="http://bbs.taobao.com/catalog/424022.htm?spm=1.356803.294499.1" title="经验畅谈" target="_blank"></a></h2>
+            <h2 class="icon-title"><a href="#" title="淘宝店铺装修" target="_blank"></a></h2>
   
 
 <?php
