@@ -128,7 +128,7 @@
 .line-list li a{color:#666}
 .line-list .line-date{float:left;padding-left:3px;width:75px;margin-right:9px;color:#fff}
 .line-list .line-subject{float:left;padding-right:8px;font-weight:700;font-size:14px}
-.line-list .line-title{width:145px;height:20px;overflow:hidden;display:block;float:left;font-size:14px}
+.line-list .line-title{width:175px;height:20px;overflow:hidden;display:block;float:left;font-size:14px}
 .line-list .line-subject:hover,.line-list .line-title:hover{color:#eb5500}
 .line-active,.ranking-list,.pathfinder{padding:0 14px;border-right:0}
 .rank-list{padding-left:46px;width:244px;background-position:0 -246px;height:230px}
