@@ -2,219 +2,26 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>诚信防骗居 - 淘宝论坛 - 淘宝网</title>
-	<meta name="description" content="讨论小组,淘宝,掏宝,购物,生活,分享,show,秀,商品,电子商务,社区,消费者社区,论坛,资讯,热门话题,朋友,网上购物,C2C,在线交易,交易市场,网上交易"/>
-	<link rel="shortcut icon" href="http://www.taobao.com/favicon2.ico" type="image/x-icon"/>
-			<script>window.g_config={appId:9};</script>	
-		
-		<link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css?t=201211021123.css" /><!-- end vmc css 3.1-->
+	<title>mei94 淘宝学院 淘宝学习  淘宝网店装修   淘宝店铺装修免费模版</title>
+	<meta name="keywords" content="mei94,淘宝装修模板,淘宝模板,网店装修,淘宝店铺装修免费模板,淘宝店铺免费装修,淘宝装修免费模板,淘宝模板免费下载,淘宝免费模板,网店模板,淘宝店铺装修教程"/>
+<meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材"/>		
+	<link rel="stylesheet" href="./css/a.tbcdn.cn.css" /><!-- end vmc css 3.1-->
 	<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js,p/global/1.0/global-min.js?t=201211021123.js"></script>
-		<link rel="stylesheet" href="http://a.tbcdn.cn/apps/bbs/pie/common/nav.css" /><!-- end vmc css 3.1-->
+	<link rel="stylesheet" href="./css/nav.css" /><!-- end vmc css 3.1-->
 	<script src="http://a.tbcdn.cn/apps/bbs/pie/common/nav.js"></script>
-	
-				<link rel="stylesheet" href="http://a.tbcdn.cn/apps/bbs/pie/threadList/20121114/page/style-min.css?t=20121225" />
-	
-		<script src="http://a.tbcdn.cn/p/header/webww-min.js?t=20110629.js"></script>
-		
-	
-				
-		<script src="http://a.tbcdn.cn/apps/bbs/pie/common/package-config.js"></script>
-	<script type="text/javascript">
-        FB.config({
-            name: 'threadList',
-            path: 'http://a.tbcdn.cn/apps/bbs/pie',
-            version: '1.0',
-            charset: 'gbk',
-            pub: '20121114',
-            tag: '20121225'            });
-    </script>
-
-	</head>
-<body><script type=text/javascript>
-var _SPM_a='';
-var _SPM_b='';
-</script>
-<script type="text/javascript">
-(function (d) {
-var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
-t.setAttribute("exparams","category=&userid=&aplus");
-t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
-d.getElementsByTagName("head")[0].appendChild(t);
-})(document);
-</script>
-
-	    <!-- start vmc 3.1 -->
-	    <!-- -->
-<!-- 全网顶通 -->
-<!-- end vmc 3.1 -->
+	<link rel="stylesheet" href="./css/style-min.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body>
 <script> 
       TB.Global.init({mc: -1}); 
-    </script>
-		<div class="module" >
-<div id="J_TopBanner" style="width:990px;overflow:hidden;margin:0 auto;">
- <a target="_blank" href="http://mj.taobao.com/?spm=1.388691.308368.1"><img  width="990" src="http://gtms01.alicdn.com/tps/i1/T1gsEWFlBeXXaAjx6s-990-80.jpg" alt="" /></a>
-</div>
+</script>
 </div>
 <div id="header">
 	<h1 id="logo">
-		<a href="http://bbs.taobao.com" class="mainlogo" target="_top" title="淘宝论坛">
-			<img width="140" height="43" src="http://img01.taobaocdn.com/tps/i1/T1_4vDXnFdXXcil8_X-140-43.png" alt="淘宝论坛">
+		<a href="/" class="mainlogo" target="_top" >
+			<img width="140" height="43" src="./img/logo.png" alt="mei94">
 		</a>
 	</h1>
-		<style type="text/css">
-    .ju123-more-m {
-        float: left;
-        margin: 3px 0 0 10px;
-        position: absolute;
-        top:22px;
-        left:145px;
-        z-index: 9999;
-    }
-
-    .ju123-more-m .ju123-hd {
-        position: relative;
-        z-index: 12;
-        width: 73px;
-        height: 20px;
-        background: url(http://img04.taobaocdn.com/tps/i4/T1x.cpXmddXXbCgGPn-73-40.png) no-repeat 0 0;
-        line-height:18px;
-        line-height: 20px\0;
-        *line-height: 20px;
-        _line-height:18px;
-        text-indent: 8px;
-        color: #999;
-    }
-
-    .ju123-more-m .ju123-m-hover {
-        color: #666;
-        background-position: 0 -20px;
-    }
-
-    .ju123-more-m .ju123-bd {
-        position: absolute;
-        top: 19px;
-        left: 0;
-        z-index: 11;
-        width: 286px;
-        height: auto;
-        padding: 7px 0 8px;
-        border: solid 1px #d8d8d8;
-        -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-        -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-        background: #FFF;
-        overflow: hidden;
-    }
-
-    .ju123-more-m .ju123-bd dl {
-        border-top: solid 1px #fff;
-        border-bottom: solid 1px #fff;
-        padding: 0 15px;
-        height: 26px;
-        line-height: 26px;
-        overflow: hidden;
-        zoom: 1;
-    }
-
-    .ju123-more-m .ju123-bd dl:hover {
-        border-top: solid 1px #e5e5e5;
-        border-bottom: solid 1px #e5e5e5;
-        background: #f6f6f6;
-    }
-
-    .ju123-more-m .ju123-bd dd, .ju123-more-m .ju123-bd dt {
-        float: left;
-    }
-
-    .ju123-more-m .ju123-bd dt {
-        font-weight: bold;
-         width: 60px;
-    }
-
-    .ju123-more-m .ju123-bd dd {
-        margin-left: 10px;
-    }
-
-    .ju123-more-m .ju123-bd a {
-        color: #666;
-    }
-</style>
-<div class="ju123-more-m">
-    <div class="ju123-hd J_MorePromotionsT">更多惊喜</div>
-    <div class="ju123-bd J_MorePromotions" style="display:none">
-            <dl>
-                <dt><a target="_blank" href="http://juhuasuan.com">聚划算</a></dt>
-                
-                    <dd><a target="_blank" href="http://ju.taobao.com/tg/today_items.htm?spm=1.396665.311572.2">今日团购</a></dd>
-                    <dd><a target="_blank" href="http://ju.taobao.com/tg/item_list.htm?spm=1.396665.311572.3">商品团购</a></dd>
-                    <dd><a target="_blank" href="http://ju.taobao.com/tg/life_list.htm?spm=1.396665.311572.4">吃喝玩乐</a></dd>
-                
-            </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://tejia.taobao.com/?spm=1.396665.311572.5">天天特价</a></dt>
-                
-                    <dd><a target="_blank" href="http://tejia.taobao.com/ten.htm?spm=1.396665.311572.6">10元包邮</a></dd>
-                    <dd><a target="_blank" href="http://tejia.taobao.com/brand.htm?spm=1.396665.311572.7">优品特卖</a></dd>
-                    <dd><a target="_blank" href="http://tejia.taobao.com/tejia_list.htm?spm=1.396665.311572.8">更多特价</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://try.taobao.com/?spm=1.396665.311572.9">试用中心</a></dt>
-                
-                    <dd><a target="_blank" href="http://try.taobao.com/fuyou.htm?spm=1.396665.311572.10">付邮试用</a></dd>
-                    <dd><a target="_blank" href="http://try.taobao.com/chaoshi.htm?spm=1.396665.311572.11">试用超市</a></dd>
-                    <dd><a target="_blank" href="http://try.taobao.com/try_share.htm?spm=1.396665.311572.12">试用报告</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://cu.taobao.com/?spm=1.396665.311572.13">促销汇</a></dt>
-                
-                    <dd><a target="_blank" href="http://cu.taobao.com/item_list.htm?spm=1.396665.311572.14">热卖爆款</a></dd>
-                    <dd><a target="_blank" href="http://cu.taobao.com/brand_store.htm?spm=1.396665.311572.15&&from_id=1">名品折扣</a></dd>
-                    <dd><a target="_blank" href="http://cu.taobao.com/list.htm?spm=1.396665.311572.16&&g_tag=97">全场半价</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://qing.taobao.com/?spm=1.396665.311572.17">清仓</a></dt>
-                
-                    <dd><a target="_blank" href="http://qing.taobao.com/?spm=1.396665.311572.18#FloorMs">超值秒杀</a></dd>
-                    <dd><a target="_blank" href="http://qing.taobao.com/?spm=1.396665.311572.19#FloorNvz">超值女装</a></dd>
-                    <dd><a target="_blank" href="http://qing.taobao.com/?spm=1.396665.311572.20#FloorPp">品牌清仓</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://star.taobao.com/?spm=1.396665.311572.21">星店</a></dt>
-                
-                    <dd><a target="_blank" href="http://star.taobao.com/index.htm?spm=1.396665.311572.22#xpm">星品拍卖</a></dd>
-                    <dd><a target="_blank" href="http://star.taobao.com/index.htm?spm=1.396665.311572.23#xzx">明星资讯</a></dd>
-                    <dd><a target="_blank" href="http://star.taobao.com/list.htm?spm=1.396665.311572.24">星店导航</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://life.taobao.com/?spm=1.396665.311572.25">本地生活</a></dt>
-                
-                    <dd><a target="_blank" href="http://shanghu.taobao.com/?spm=1.396665.311572.26">商户精选</a></dd>
-                    <dd><a target="_blank" href="http://quan.taobao.com/?spm=1.396665.311572.27">卡券优惠</a></dd>
-                    <dd><a target="_blank" href="http://map.taobao.com/?spm=1.396665.311572.28">地图购物</a></dd>
-                
-      </dl>
-
-<dl>
-                <dt><a target="_blank" href="http://paimai.taobao.com/pmp/index.htm?spm=1.396665.311572.29">拍卖会</a></dt>
-                
-                    <dd><a target="_blank" href="http://s.paimai.taobao.com/list.htm?spm=1.396665.311572.30&stype=3">专场拍卖</a></dd>
-                    <dd><a target="_blank" href="http://sf.taobao.com/?spm=1.396665.311572.31">司法拍卖</a></dd>
-                    <dd><a target="_blank" href="http://www.taobao.com/go/chn/auctionmarket.php?spm=1.396665.311572.32">精选拍卖</a></dd>
-                
-      </dl>    </div>
-</div>
-
 <script type="text/javascript">
     KISSY.ready(function(S) {
         var D = S.DOM,E = S.Event;
@@ -234,179 +41,46 @@ d.getElementsByTagName("head")[0].appendChild(t);
         })
     });
 </script>
-  <div id="J_C2C_Search" class="search-box">
-		<div class="search">
-			<s class="l"></s>
-			<div class="ts-type J_Type" id="J_Type">
-				<ul>
-					<li data-condition="post">帖子</li>
-					<li data-condition="member">淘友</li>
-				</ul>
-				<b></b>
-			</div>
-			<form id="J_searchForm" class="J_FormMarket" method="get" action="http://bbs.taobao.com/search/thread.htm">
-				<div class="m">
-					<label class="icon J_Placeholder ts-show"></label>
-					<input type="text" id="ts-keyword" class="ts-keyword J_KeyWord" autocomplete="off" value="" name="q">
-					<input type="hidden" id="J_ShopSearch" value="shopsearch" name="">
-				</div>
-				<input type="hidden" id="condition" name="condition" value="post">
-				<button class="J_SearchMarket btn1" type="submit"></button>
-			</form>
-		</div>
-  </div>
+<div class="J_Type" id="J_Type">
+</div>	
 </div>
-
-
-		<div id="main-nav">
+<div id="main-nav">
 	<div id="nav">
 		<div class="navigation">
-			<div class="multi-nav">
-				<div class="nav-trigger">
-					全部论坛<s class="icon"></s>
-				</div>
-				<div class="category">
-					<div class="more-nav">
-						<div class="more-nav-list first">
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">官方</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/438501.htm" target="_blank">淘宝公告</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/443501.htm" target="_blank">天猫论坛</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/10281510.htm" target="_blank">展示营销</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424027.htm" target="_blank">淘宝直通车</a></dd>
-							</dl>
-							<dl class="clearfix">
-								<dt><a href=" http://bbs.taobao.com/index.htm" target="_blank">服务</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/424019.htm" target="_blank">买家地盘</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/10290010.htm" target="_blank">服务之声</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/11396510.htm" target="_blank">谈规说则</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/440502.htm" target="_blank">营销中心</a></dd>
-							</dl>
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">合作</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/440501.htm" target="_blank">淘宝旺铺</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/11298010.htm" target="_blank">值得买</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/10198510.htm" target="_blank">试用中心</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/11383510.htm" target="_blank">天天特价</a></dd>
-							</dl>
-						</div>
-						<div class="more-nav-list mid">
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">分享</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/459501.htm" target="_blank">淘宝达人</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/10150010.htm" target="_blank">超级买家</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424005.htm" target="_blank">服饰鞋帽</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424020.htm" target="_blank">二手闲置</a></dd>
-							</dl>
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">茶馆</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/424017.htm" target="_blank">淘宝故事</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424015.htm" target="_blank">淘宝杂谈</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424003.htm" target="_blank">理财大学</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424014.htm" target="_blank">卖家之声</a></dd>
-
-							</dl>
-
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">经验</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/424021.htm" target="_blank">创业先锋</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424022.htm" target="_blank">经验畅谈</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424023.htm" target="_blank">诚信防骗</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424024.htm" target="_blank">招聘求职</a></dd>
-							</dl>
-						</div>
-						<div class="more-nav-list last">
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">站务</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/750501.htm" target="_blank">论坛公告</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/751501.htm" target="_blank">论坛帮助</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/753501.htm" target="_blank">论坛投诉</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/732001.htm" target="_blank">活动专区</a></dd>
-							</dl>
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">时尚</a></dt>
-								<dd><a href="http://www.taobao.com/market/beauty/bbs_index.php" target="_blank">美容化妆</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/11392513.htm" target="_blank">珠宝社区</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/11043010.htm" target="_blank">户外运动</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/424001.htm" target="_blank">旅游天下</a></dd>
-							</dl>
-
-							<dl class="clearfix">
-								<dt><a href="http://bbs.taobao.com/index.htm" target="_blank">生活</a></dt>
-								<dd><a href="http://bbs.taobao.com/catalog/10821511.htm" target="_blank">家居装修</a></dd>
-								<dd><a href="http://baobao.taobao.com/shequ.htm" target="_blank">妈宝亲子</a></dd>
-								<dd><a href="http://jiehun.taobao.com/go/chn/wedding-bbs-index.php" target="_blank">谈婚论嫁</a></dd>
-								<dd><a href="http://bbs.taobao.com/catalog/10937010.htm" target="_blank">手机社区</a></dd>
-							</dl>
-
-						</div>
-					</div>
-				</div>
+	  <div class="single-nav" id="single-nav">
+				<a href="#" id="J_Nav_index" class="trigger-index">首页</a>
+				<a href="#" id="J_Nav_zhengce" class="trigger-zhengce">聚焦热点</a>
+				<a href="#" id="J_Nav_maijia" class="trigger-maijia">卖家交流</a>
+				<a href="#" id="J_Nav_guanfang" class="trigger-guanfang">官方专区</a>
 			</div>
-<div class="single-nav" id="single-nav">
-				<a href="http://bbs.taobao.com/index.htm" id="J_Nav_index" class="trigger-index">首页</a>
-				<a href="http://bbs.taobao.com/catalog/12129511.htm" id="J_Nav_zhengce" class="trigger-zhengce">聚焦热点</a>
-				<a href="http://bbs.taobao.com/catalog/963001.htm" id="J_Nav_maijia" class="trigger-maijia">卖家交流</a>
-				<a href="http://bbs.taobao.com/catalog/10290010.htm" id="J_Nav_guanfang" class="trigger-guanfang">官方专区</a>
-				<a href="http://mj.taobao.com" id="J_Nav_1212" class="trigger-guanfang">1212搞起</a>
-		  </div>
-			<div class="menu">
-				<a class="person-center" href="http://bbs.taobao.com/forum/pc/my_forum_thread.htm"><s class="icon"></s>个人中心</a>
-				<a href="http://bbs.taobao.com/forum/pc/my_message_list.htm" class="message"><s class="icon"></s>消息</a>				
-			</div>
-			<div class="msg-tip"></div>
-	  </div>
-	</div>
-	<div id="sub-nav">
+		</div>
+</div>
+<div id="sub-nav">
 		<div class="sub-nav-wrap">
     		<div class="sub-nav-box">
     			    			<ul class="J_IsSubnav" id="J_Sub_index">
-    				<li id="J_Subnav_zatan"><a href="http://bbs.taobao.com/catalog/424015.htm" target="_blank">淘宝杂谈</a></li>
-    				<li id="J_Subnav_lunjian"><a href="http://bbs.taobao.com/catalog/963001--1.htm" target="_blank">网商论剑</a></li>
-    				<li id="J_Subnav_changtan"><a href="http://bbs.taobao.com/catalog/424022.htm" target="_blank">经验畅谈</a></li>
-    				<li class="subnav-last" id="J_Subnav_xianfeng"><a href="http://bbs.taobao.com/catalog/424021.htm" target="_blank">创业先锋</a></li>						
+    				<li id="J_Subnav_zatan"><a href="#" target="_blank">淘宝杂谈</a></li>
+    				<li id="J_Subnav_lunjian" class="subnav-last"><a href="#" target="_blank">网商论剑</a></li>
     			</ul>
-    			    			<ul class="J_IsSubnav" id="J_Sub_zhengce">
-    				<li id="J_Subnav_jujiao"><a href="http://bbs.taobao.com/catalog/thread/16029511-259778216.htm" target="_blank">热点聚焦</a></li>
-    				<li id="J_Subnav_zhengji"><a href="http://bbs.taobao.com/catalog/thread/16029511-259778223.htm" target="_blank">意见征集</a></li>
-    				<li class="subnav-last" id="J_Subnav_mianduimian"><a href="http://bbs.taobao.com/catalog/thread/16029511-259778224.htm" target="_blank">小二面对面</a></li>
-   			  </ul>
+    			  <ul class="J_IsSubnav" id="J_Sub_zhengce">
+    				<li id="J_Subnav_jujiao" class="subnav-last"><a href="#" target="_blank">热点聚焦</a></li>
+    				
+    			</ul>
     			
     			    			<ul class="J_IsSubnav" id="J_Sub_maijia">
-    				<li id="J_Subnav_jingyan"><a href="http://bbs.taobao.com/catalog/963001-1061105.htm#ThreadList" target="_blank">实战经验</a></li>
-    				<li id="J_Subnav_xueyuan"><a href="http://bbs.taobao.com/catalog/539501-764174.htm?#ThreadList" target="_blank">数据分析</a></li>
-    				<li id="J_Subnav_yingxiao"><a href="http://bbs.taobao.com/catalog/963001-11632011.htm#ThreadList" target="_blank">店铺营销</a></li>
-    				<li id="J_Subnav_yingxiaozhongxin"><a href="http://bbs.taobao.com/catalog/440502.htm#ThreadList" target="_blank">营销中心</a></li>
-    				<li id="J_Subnav_zhuanqu"><a href="http://bbs.taobao.com/catalog/424022.htm" target="_blank">小卖家专区</a></li>	
-    				<li id="J_Subnav_xiaoermei" class="subnav-last"><a href="http://bbs.taobao.com/catalog/12005010.htm#ThreadList" target="_blank">淘宝小而美</a></li>
-   			  </ul>
+    				<li id="J_Subnav_jingyan"><a href="#" target="_blank">实战经验</a></li>
+    				<li id="J_Subnav_xiaoermei" class="subnav-last"><a href="#" target="_blank">淘宝小而美</a></li>
+    			</ul>
     			
     			    			<ul class="J_IsSubnav" id="J_Sub_guanfang">
-    				<li id="J_Subnav_taobaogonggao"><a href="http://bbs.taobao.com/catalog/438501.htm" target="_blank">淘宝公告</a></li>
-    				<li id="J_Subnav_juhuasuan"><a href="http://bbs.taobao.com/catalog/443501.htm" target="_blank">天猫</a></li>
-    				<li id="J_Subnav_juhuasuan"><a href="http://bbs.taobao.com/catalog/11482010.htm" target="_blank">聚划算</a></li>
-    				<li id="J_Subnav_zhitongche"><a href="http://bbs.taobao.com/catalog/424027.htm" target="_blank">淘宝直通车</a></li>
-    				<li id="J_Subnav_fuwuzhisheng"><a href="http://bbs.taobao.com/catalog/10290010.htm" target="_blank">服务之声</a></li>
-    				<li id="J_Subnav_fangpian"><a href="http://bbs.taobao.com/catalog/424023.htm" target="_blank">诚信防骗</a></li>
-    				<li id="J_Subnav_shiyongzhongxin"><a href="http://bbs.taobao.com/catalog/10198510.htm" target="_blank">试用中心</a></li>
-    				<li id="J_Subnav_tejia"><a href="http://bbs.taobao.com/catalog/11383510.htm" target="_blank">天天特价</a></li>
-    				<li class="subnav-last" id="J_Subnav_cuxiaohui"><a href="http://bbs.taobao.com/catalog/11298010.htm" target="_blank">值得买</a></li>
+    				<li id="J_Subnav_taobaogonggao"><a href="#" target="_blank">淘宝公告</a></li>
+    				<li class="subnav-last" id="J_Subnav_cuxiaohui"><a href="#" target="_blank">值得买</a></li>
 			</ul>
-    			    			<ul class="J_IsSubnav" id="J_Sub_1212">
-	    			<li id="J_Subnav_1212_guangfanghuodong"><a href="http://bbs.taobao.com/catalog/12429010-13688010.htm">官方活动</a></li>
-	    			<li id="J_Subnav_1212maijiagonglue"><a href="http://bbs.taobao.com/catalog/12429010-13762510.htm">卖家攻略</a></li>
-	    			<li id="J_Subnav_1212xiaoerbaoliao"><a href="http://bbs.taobao.com/catalog/thread/16329010-264781156.htm">小二爆料</a></li>
-    				<li id="J_Subnav_1212qiangxianbao"><a href="http://mj.taobao.com" target="_blank">1212抢先报</a></li>
-    				<li id="J_Subnav_1212zhuanqu"><a href="http://bbs.taobao.com/catalog/12429010--1.htm" target="_blank">1212专区</a></li>
-    				<li id="J_Subnav_1212onlineQA" class="subnav-last"  ><a href="http://bbs.taobao.com/catalog/thread/16329010-264632917.htm" target="_blank">1212在线答疑</a></li>
-    			</ul> 
-   		  </div>
+    		</div>
 		</div>
 	</div>
 </div>
 
-		
- 
 <div id="content">
 	<div id="crumb">
 		<a class="bbs-index" href="http://bbs.taobao.com/index.htm" target="_top">淘宝论坛</a>
@@ -1749,51 +1423,16 @@ d.getElementsByTagName("head")[0].appendChild(t);
 	
 <a href="http://bbs.taobao.com/catalog/thread/1093005-259414414.htm" target="_blank" class="J_siteFeedback"><s></s>改进建议</a>
 
-		<!-- from vmcommon -->
 <div id="footer">
 	<div class="g_foot">
-    <div class="g_foot-ali">
-    <a href="//news.alibaba.com/specials/aboutalibaba/aligroup/index.html">阿里巴巴集团</a>
-    <b>|</b>
-    <a href="//www.alibaba.com">阿里巴巴国际站</a>
-    <b>|</b>
-    <a href="//www.1688.com">阿里巴巴中国站</a>
-    <b>|</b>
-    <a href="//www.aliexpress.com">全球速卖通</a>
-    <b>|</b>
-    <a href="//www.taobao.com/index_global.php">淘宝网</a>
-    <b>|</b>
-    <a href="//www.tmall.com">天猫</a>
-    <b>|</b>
-    <a href="//ju.taobao.com">聚划算</a>
-    <b>|</b>
-    <a href="//www.etao.com">一淘</a>
-    <b>|</b>
-    <a href="//www.alimama.com">阿里妈妈</a>
-    <b>|</b>
-    <a href="//www.aliyun.com">阿里云计算</a>
-    <b>|</b>
-    <a href="//www.yunos.com">云OS</a>
-    <b>|</b>
-    <a href="//www.net.cn">万网</a>
-    <b>|</b>
-    <a href="//cn.yahoo.com">中国雅虎</a>
-    <b>|</b>
-    <a href="//www.alipay.com">支付宝</a>
+    <div class="g_foot-nav">
+        <a href="#">关于我们</a>
+        <a href="#">合作伙伴</a>
+        <a href="#">营销中心</a>
+        <a href="#">诚征英才</a>
+        <a href="#">联系我们</a>
+        <span> 沪ICP备13015807号</span>
     </div>
-<div class="g_foot-nav">
-        <a href="http://www.taobao.com/about/">关于淘宝</a>
-        <a href="http://www.taobao.com/about/partners.php">合作伙伴</a>
-        <a href="http://pro.taobao.com/">营销中心</a>
-        <a href="http://service.taobao.com/support/main/service_route.htm">联系客服</a>
-        <a href="http://open.taobao.com/">开放平台</a>
-<a href="http://www.taobao.com/about/join.php">诚征英才</a>
-        <a href="http://www.taobao.com/about/contact.php">联系我们</a>
-        <a href="http://www.taobao.com/sitemap.php">网站地图</a>
-        <a href="http://www.taobao.com/about/copyright.php">法律声明</a>
-        <span>&copy; 2013 Taobao.com 版权所有</span>
-    </div>
-    <span class="g_foot-toy"></span>
     <span class="g_foot-line"></span>
 </div>
 

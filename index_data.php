@@ -472,7 +472,6 @@
 	
 			<a href="#" target="_blank" class="J_siteFeedback"><s></s>改进建议</a>
 
-		<!-- from vmcommon -->
 <div id="footer">
 	<div class="g_foot">
     <div class="g_foot-nav">
