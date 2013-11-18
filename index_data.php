@@ -128,26 +128,28 @@
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
 	 }
-	 print_r($list_content);
+	  
 ?>
   <div class="col-sub">
     		<div class="right-box policy">
             
         <h2 class="icon-title"><a href="#" title="淘宝推广" target="_blank"></a></h2>
         <div class="hot-news">
-            <a href="#" target="_blank">
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1tBElFbFXXXcWwx.o-290-140.jpg">
-                <span>【万圣节购物车狂欢】活动等你爆发</span>                
+                <span><?php  echo cutstr($list_content[0]['post_title'], 28);   ?></span>                
             </a>
         </div>
         
         <ul class="post-list">
-            
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-264499101.htm?spm=1.358605.295673.3" title="【实操干货】天天特价，爆棚的福音来了">【实操干货】天天特价，爆棚的福音来了</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-264499101.htm?spm=1.358605.295673.4">0回复</a>
-            </li>
+            <?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
+           	<li>
+            <s class="dot"></s>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		  <?php }} ?>
                         <li>
                 <s class="dot"></s>
                 <p><a href="http://bbs.taobao.com/catalog/thread/16329010-264120192.htm?spm=1.358605.295673.5" title="【经典必读】骗局，你还能骗谁？">【经典必读】骗局，你还能骗谁？</a></p>
