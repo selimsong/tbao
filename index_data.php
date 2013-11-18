@@ -422,14 +422,17 @@
             <h2 class="icon-title"><strong title="一周热门排行"></strong></h2>
 			<ul class="rank-list">
 				<?php foreach($list_content as $k=>$v){  
-				 	
+					$top = null;
+				 	if($k>=1){
+					    $top="top";
+					 }
 				?>
-				  <li class="<?php echo $k;  ?>">
+				  <li class="<?php echo $top  ?>">
 					<p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
 				  </li>
 			  <?php }  ?>   
 			 
-				<li class="top">
+				<li >
     			        			<p><a href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm" title="直击1212年终盛典 图解报名2步走起">直击1212年终盛典 图解报...</a></p>
                     <a class="J_Reply_Num" href="http://bbs.taobao.com/catalog/thread/16329010-264779564.htm">1.3万回复</a>
 				</li>
