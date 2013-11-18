@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>mei94 淘宝交流  淘宝网店装修   淘宝店铺装修免费模版</title>
+	<title>mei94 淘宝学院 淘宝学习  淘宝网店装修   淘宝店铺装修免费模版</title>
 	<meta name="keywords" content="mei94,淘宝装修模板,淘宝模板,网店装修,淘宝店铺装修免费模板,淘宝店铺免费装修,淘宝装修免费模板,淘宝模板免费下载,淘宝免费模板,网店模板,淘宝店铺装修教程"/>
 <meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材"/>		
 	<link rel="stylesheet" href="./css/a.tbcdn.cn.css" /><!-- end vmc css 3.1-->
@@ -120,11 +120,20 @@
     	</ul>
     </div>
 </div>			
-        
+   
+<?php
+		 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 7"); 
+	 $list_content = array();
+     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
+	 }
+	 print_r($list_content);
+?>
   <div class="col-sub">
     		<div class="right-box policy">
             
-        <h2 class="icon-title"><a href="#" title="政策解读" target="_blank"></a></h2>
+        <h2 class="icon-title"><a href="#" title="淘宝推广" target="_blank"></a></h2>
         <div class="hot-news">
             <a href="#" target="_blank">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1tBElFbFXXXcWwx.o-290-140.jpg">
