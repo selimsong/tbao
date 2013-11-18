@@ -149,68 +149,59 @@
             <s class="dot"></s>
             <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
           </li>
-		  <?php }} ?>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-264120192.htm?spm=1.358605.295673.5" title="【经典必读】骗局，你还能骗谁？">【经典必读】骗局，你还能骗谁？</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-264120192.htm?spm=1.358605.295673.6">0回复</a>
-            </li>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-264526225.htm?spm=1.358605.295673.7" title="【卖家案例】3金冠每日增加上万元">【卖家案例】3金冠每日增加上万元</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-264526225.htm?spm=1.358605.295673.8">0回复</a>
-            </li>
-                        
+		  <?php }} ?>         
         </ul>
     </div>
-    		<div class="right-box ju">
-            
-        <h2 class="icon-title"><a href="#" title="聚划算专区" target="_blank"></a></h2>
+   <?php
+		 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='7' order by a.post_date desc LIMIT 0 , 7"); 
+	 $list_content = array();
+     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
+	 }
+	  
+?>  
+    <div class="right-box ju">
+        <h2 class="icon-title"><a href="#" title="淘宝搜索推广" target="_blank"></a></h2>
           
         
         <div class="hot-news">
-            <a href="#" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
                 <img src="http://gtms01.alicdn.com/tps/i1/T1XzkfFipbXXcWwx.o-290-140.jpg">
-                <span>【1212预演】 2钻卖家的破万抱团营销</span>                
+                <span><?php  echo cutstr($list_content[0]['post_title'], 28);   ?></span>                
             </a>
         </div>
         
         <ul class="post-list">
-            
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-263745959.htm?spm=1.358606.295674.3" title="失物招领：手作的温度">失物招领：手作的温度</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-263745959.htm?spm=1.358606.295674.4">0回复</a>
-            </li>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-263747641.htm?spm=1.358606.295674.5" title="文艺合伙人成长记">文艺合伙人成长记</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-263747641.htm?spm=1.358606.295674.6">0回复</a>
-            </li>
-                        <li>
-                <s class="dot"></s>
-                <p><a href="http://bbs.taobao.com/catalog/thread/16329010-263737452.htm?spm=1.358606.295674.7" title="墨立方：九成流量来自微博">墨立方：九成流量来自微博</a></p>
-                <a class="J_Reply" href="http://bbs.taobao.com/catalog/thread/16329010-263737452.htm?spm=1.358606.295674.8">0回复</a>
-            </li>
-                        
+            <?php foreach($list_content as $k=>$v){  
+			     if(0 != $k){	
+			?>
+           	<li>
+            <s class="dot"></s>
+            <p><a href="article-<?php echo alphaID($v['ID']);  ?>.html"  target="_blank"><?php  echo $v['post_title'];   ?></a></p>
+          </li>
+		  <?php }} ?> 
+
         </ul>
     </div>
-    		<div class="right-box service">
-            
-        <h2 class="icon-title"><a href="#" title="服务之声专区" target="_blank"></a></h2>
+   <?php
+		 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='8' order by a.post_date desc LIMIT 0 , 7"); 
+	 $list_content = array();
+     while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
+	 }
+	  
+?>  
+    	<div class="right-box service">   
+        <h2 class="icon-title"><a href="#" title="淘宝直通车推广" target="_blank"></a></h2>
           
         
-        <div class="news-img-info">
-            <a class="news-img" href="http://bbs.taobao.com/catalog/thread/16329010-264871747.htm?spm=1.358607.295675.1" target="_blank" title=""扫货买家" 看你还催我!">                    
-                <img src="http://gtms01.alicdn.com/tps/i1/T1gDcNFnlfXXbCFbsb-100-100.jpg">                     
+        <div class="hot-news">
+            <a href="article-<?php echo alphaID($list_content[0]['ID']);  ?>.html" target="_blank" title="【1212预演】 2钻卖家的破万抱团营销">
+                <img src="http://gtms01.alicdn.com/tps/i1/T1XzkfFipbXXcWwx.o-290-140.jpg">
+                <span><?php  echo cutstr($list_content[0]['post_title'], 28);   ?></span>                
             </a>
-            <div class="news-info">
-                <h4><a href="http://bbs.taobao.com/catalog/thread/16329010-264871747.htm?spm=1.358607.295675.2">"扫货买家" 看你还催我!</a></h4>
-                <p>
-                    今天双十一，桃子在网上看了很多神贴，什么输错密码啊，请假在家盯着老婆啊~你们有这样么，嘿嘿~桃子在凌晨的时候苦苦守候在电脑前扫货！太刺激，太惊险了！！…
-                    <a href="http://bbs.taobao.com/catalog/thread/16329010-264871747.htm?spm=1.358607.295675.3">[详细]</a>
-                </p>
-            </div>
         </div>
         
         <ul class="post-list">
