@@ -123,7 +123,7 @@
    
 <?php
 		 
-	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 7"); 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='6' order by a.post_date desc LIMIT 0 , 8"); 
 	 $list_content = array();
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
@@ -154,7 +154,7 @@
     </div>
    <?php
 		 
-	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='7' order by a.post_date desc LIMIT 0 , 7"); 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='7' order by a.post_date desc LIMIT 0 , 8"); 
 	 $list_content = array();
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
@@ -186,7 +186,7 @@
     </div>
    <?php
 		 
-	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='8' order by a.post_date desc LIMIT 0 , 7"); 
+	$result = mysql_query("SELECT a.ID, a.post_title  FROM  `t_posts` a left join `t_term_relationships` c ON c.object_id = a.ID  where a.post_type='post' and c.term_taxonomy_id='8' order by a.post_date desc LIMIT 0 , 8"); 
 	 $list_content = array();
      while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
 		 $list_content[] = array('ID'=>$row['ID'], 'post_title'=>$row['post_title']);
