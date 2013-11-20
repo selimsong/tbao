@@ -93,10 +93,6 @@
 	        <a href="#">
         	淘宝公告栏
         </a>
-	<span>&gt;</span>
-<a id="J_articleTitle" href="#">
-	 <?php  echo $row['post_title'];  ?>
-</a>
 
 		</div>
     	<div id="detail" data-type="isTreadDetail">
