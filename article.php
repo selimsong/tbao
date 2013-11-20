@@ -5,26 +5,17 @@
  $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts` where ID='".addslashes($id)."'    LIMIT 0 , 1"); 
  $row = mysql_fetch_array($result, MYSQL_ASSOC);
 ?>
-<head><script src="http://a.tbcdn.cn/apps/matrix-mission/feedback/feedback.js" async=""></script>
-	<meta charset="utf-8">
+<head>
 	<title>mei94 <?php  echo $row['post_title'];  ?></title>
-	<meta name="keywords" content="mei94,淘宝装修模板,淘宝模板,网店装修,淘宝店铺装修免费模板,淘宝店铺免费装修,淘宝装修免费模板,淘宝模板免费下载,淘宝免费模板,网店模板,淘宝店铺装修教程">
-<meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材">
-			
-		<link rel="stylesheet" href="./css/a.tbcdn.cn.css"><!-- end vmc css 3.1-->
-	<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js,p/global/1.0/global-min.js?t=201211021123.js"></script>
-		<link rel="stylesheet" href="./css/nav.css"><!-- end vmc css 3.1-->
-	<script src="http://a.tbcdn.cn/apps/bbs/pie/common/nav.js"></script>
-	
-	<link rel="stylesheet" href="./css/style-min-article.css">
-	
-
+	<meta name="keywords" content="mei94,淘宝装修模板  <?php  echo $row['post_title'];  ?>">
+    <meta name="description" content="mei94 <?php  echo $row['post_title'];  ?>">
+<link rel="stylesheet" href="./css/a.tbcdn.cn.css"><!-- end vmc css 3.1-->
+<script src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js,p/global/1.0/global-min.js?t=201211021123.js"></script>
+<link rel="stylesheet" href="./css/nav.css"><!-- end vmc css 3.1-->
+<script src="http://a.tbcdn.cn/apps/bbs/pie/common/nav.js"></script>
+<link rel="stylesheet" href="./css/style-min-article.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
 <body>
-<script> 
-      TB.Global.init({mc: -1}); 
-    </script>
-
 
 <div id="header">
 	<h1 id="logo">
