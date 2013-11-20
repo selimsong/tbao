@@ -1,6 +1,13 @@
-<html><head><script src="http://a.tbcdn.cn/apps/matrix-mission/feedback/feedback.js" async=""></script>
+<html>
+<?php
+ include_once 'config.php';
+ $id = alphaID($_GET['id'] , true);
+ $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts` where ID='".addslashes($id)."'    LIMIT 0 , 1"); 
+ $row = mysql_fetch_array($result, MYSQL_ASSOC);
+?>
+<head><script src="http://a.tbcdn.cn/apps/matrix-mission/feedback/feedback.js" async=""></script>
 	<meta charset="utf-8">
-	<title>mei94 淘宝交流  淘宝网店装修   淘宝店铺装修免费模版</title>
+	<title>mei94 <?php  echo $row['post_title'];  ?></title>
 	<meta name="keywords" content="mei94,淘宝装修模板,淘宝模板,网店装修,淘宝店铺装修免费模板,淘宝店铺免费装修,淘宝装修免费模板,淘宝模板免费下载,淘宝免费模板,网店模板,淘宝店铺装修教程">
 <meta name="description" content="mei94网店装修网提供装修淘宝店铺所需的全套淘宝装修模板、淘宝客服中心模板、宝贝描述模板、店招图片素材、宝贝分类图片素材、旺铺促销模板等淘宝店铺装修免费模板代码与淘宝装修图片素材">
 			
@@ -13,11 +20,7 @@
 	
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
-<body><script charset="utf-8" async="" src="http://tui.cnzz.net/api.php?id=1000002923&amp;surl=http%3A%2F%2Flocalhost%2Ftbao%2Farticle.html&amp;title=mei94%20%E6%B7%98%E5%AE%9D%E4%BA%A4%E6%B5%81%20%E6%B7%98%E5%AE%9D%E7%BD%91%E5%BA%97%E8%A3%85%E4%BF%AE%20%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E8%A3%85%E4%BF%AE%E5%85%8D%E8%B4%B9%E6%A8%A1%E7%89%88&amp;cw=948&amp;iniframe=false&amp;ts=1384609225686686"></script>
-	    <!-- start vmc 3.1 -->
-	    <!-- -->
-        <!-- 全网顶通 -->
-        <!-- end vmc 3.1 -->
+<body>
 <script> 
       TB.Global.init({mc: -1}); 
     </script>
@@ -47,18 +50,13 @@
             }
         })
     });
-</script>
-
-			
+</script>	
 			<div class="J_Type" id="J_Type">
-		
 			</div>
-	
-	
+
 </div>
 
-
-		<div id="main-nav">
+<div id="main-nav">
 	<div id="nav">
 		<div class="navigation">
 	  <div class="single-nav" id="single-nav">
@@ -95,14 +93,7 @@
 	</div>
 </div>
 
-		<?php
 
-		 include_once 'config.php';
-         $id = alphaID($_GET['id'] , true);
-		 $result = mysql_query("SELECT ID,post_date,post_title,post_content FROM `t_posts` where ID='".addslashes($id)."'    LIMIT 0 , 1"); 
-		 $row = mysql_fetch_array($result, MYSQL_ASSOC);
-		// var_dump($row);
-		?>
 
 		<div id="content">
 		<div id="crumb">
