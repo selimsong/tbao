@@ -16,14 +16,8 @@
 		$messageCount = $loginUser->info['notices'] + $loginUser->info['messages'];
 		$messageClass = $messageCount ? 'header_message' : 'header_message header_message_none';
 	#-->
-	<a class="header_login_btn" id="J_head_msg_btn" tabindex="0" href="{@url:message/message/run}" aria-haspopup="J_head_msg_pop" aria-label="消息菜单,按pagedown打开菜单,tab键导航,esc键关闭"><span class="inside"><span class="{$messageClass}">消息<em class="core_num J_hm_num">{$messageCount}</em></span></span></a>
-	<!--消息下拉菜单-->
-	<div id="J_head_msg_pop" tabindex="0" aria-label="消息下拉菜单,按ESC键关闭菜单" class="header_menu_wrap my_message_menu" style="display:none;">
-		<div class="header_menu cc">
-			<div class="header_menu_hd" id="J_head_pl_hm"><span class="{$messageClass} header_message_down">消息<em class="core_num J_hm_num">{$messageCount}</em></span></div>
-			<div id="J_head_msg" class="my_message_content"><div class="pop_loading"></div></div>
-		</div>
-	</div>
+
+
 	<div class="header_login_later">
 		<hook name="header_info_1"/>
 		<a aria-haspopup="J_head_user_menu" aria-label="个人功能菜单,按pagedown打开菜单,tab键导航,esc键关闭" tabindex="0" rel="nofollow" href="{@url:space/index/run?uid=$loginUser->uid}" id="J_head_user_a" class="username" title="{$loginUser->username}">{@Pw::substrs($loginUser->username,6)}<em class="core_arrow"></em></a>
